@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
 
@@ -21,14 +21,16 @@
 
   <!-- Plugin CSS -->
   <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
-  <link href="vendor/slick/slick.css" rel="stylesheet"></script>
-  <link href="vendor/slick/slick-theme.css" rel="stylesheet"></script>
+  <link href="vendor/slick/slick.css" rel="stylesheet">
+  <link href="vendor/slick/slick-theme.css" rel="stylesheet">
 
+  <link href="css/variables.css" rel="stylesheet">
   <!-- Theme CSS -->
   <link href="css/creative.min.css" rel="stylesheet">
-  <link href="css/to-top.css" rel="stylesheet"></script>
-  <link href="css/carousel.css" rel="stylesheet"></script>
-  <link href="css/slick.css" rel="stylesheet"></script>
+  <link href="css/to-top.css" rel="stylesheet">
+  <link href="css/carousel.css" rel="stylesheet">
+  <link href="css/slick.css" rel="stylesheet">
+  <link href="css/custom.css" rel="stylesheet">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -48,9 +50,9 @@
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-          <span class="sr-only">Navegador</span> Menu <i class="fa fa-bars"></i>
+          <span class="sr-only">Navegador</span> Menú <i class="fa fa-bars"></i>
         </button>
-        <a class="navbar-brand page-scroll" href="#page-top">Angkor Group</a>
+        <a class="navbar-brand page-scroll" href="index.html">Angkor Group</a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
@@ -66,7 +68,7 @@
             <a class="page-scroll" href="#portfolio">Productos</a>
           </li>
           <li>
-            <a class="page-scroll" href="contactenos.html">Contáctanos</a>
+            <a class="page-scroll" href="contactanos.html">Contáctanos</a>
           </li>
         </ul>
       </div>
@@ -75,23 +77,50 @@
     <!-- /.container-fluid -->
   </nav>
 
-  <div id="contact_map" class="contact-map" style="height:300px;"></div>
-
   <section id="contact">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 text-center">
-          <h2 class="section-heading">Let's Get In Touch!</h2>
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">Contáctanos</h2>
           <hr class="primary">
-          <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+          <div class="col-lg-4 col-lg-offset-2 text-center">
+            <i class="fa fa-phone fa-3x sr-contact text-primary"></i>
+            <p class="white">(+51) (1) 243 9090</p>
+          </div>
+          <div class="col-lg-4 text-center">
+            <i class="fa fa-envelope-o fa-3x sr-contact text-primary"></i>
+            <p class="white">consulting@angkorperu.com</p>
+          </div>
         </div>
-        <div class="col-lg-4 col-lg-offset-2 text-center">
-          <i class="fa fa-phone fa-3x sr-contact"></i>
-          <p>(+51) (1) 243 9090</p>
-        </div>
-        <div class="col-lg-4 text-center">
-          <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-          <p><a href="mailto:your-email@your-domain.com">consulting@angkorperu.com</a></p>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <form name="sentMessage" id="contactForm" novalidate>
+            <div class="row">
+              <div class="col-md-6">
+                <div id="contact_map" class="contact-map"></div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Tu nombre *" id="name" required data-validation-required-message="Por favor ingresa tu nombre.">
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" placeholder="Tu correo *" id="email" required data-validation-required-message="Por favor ingresa tu correo.">
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" placeholder="Tu mensaje *" id="message" required data-validation-required-message="Por favor ingresa un mensaje."></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="clearfix"></div>
+              <div class="col-lg-12 text-center">
+                <div id="success"></div>
+                <button type="submit" class="btn btn-xl btn-primary">Enviar mensaje</button>
+              </div>
+            </div>
+          </form>
         </div>
       </div>
     </div>
@@ -99,22 +128,11 @@
 
   <footer>
     <div class="footer">
-      <div class="container">
-      </div>
       <div class="copyright">
         <div class="container">
-          <div class="row">
-            <div class="col-md-6 col-sm-6">
-              <div class="copyright-text"><a href="/" target="_blank">&copy; Copyright Angkor Group S.A.C. LIMA - PERU</a></div>
-            </div>
-            <div class="col-md-6 col-sm-6">
-              <div class="social-icons">
-                <p style="margin:0 0 5px">Jr. Monte Rosa 270 Oficina 402 | Chacarilla del Estanque | Surco | Lima - Per? </p>
-                Teléfono: + 51 (1) 243 9090 + 51 (1) 633 4168 | Fax: + 51 (1) 243 9090
-              </div>
-            </div>
-
-          </div>
+          <a href="/" target="_blank">Copyright &copy; Angkor Group S.A.C. LIMA - PERU</a>
+          <div>Jr. Monte Rosa 270 Oficina 402 | Chacarilla del Estanque | Surco | Lima - Perú</div>
+          <div>Teléfono: + 51 (1) 243 9090 + 51 (1) 633 4168 | Fax: + 51 (1) 243 9090</div>
         </div>
       </div>
     </div>
@@ -136,9 +154,13 @@
 
   <!-- Theme JavaScript -->
   <script src="js/creative.min.js"></script>
+
+  <!-- Contact Form JavaScript -->
+  <script src="vendor/jquery-validate/contact_me.js"></script>
+  <script src="vendor/jquery-validate/jqBootstrapValidation.js"></script>
+
+  <!-- Custom Javascript -->
   <script src="js/to-top.js"></script>
   <script src="js/map.js"></script>
-
 </body>
-
 </html>
