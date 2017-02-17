@@ -84,13 +84,72 @@ section#contact .text-danger {
   
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
-}
+ }
 
 .flex-item {
   padding: 5px;
   width: 250px;
-  height: 150px;
+  height: 200px;
   margin: 10px;
   
   text-align: center;
+}
+
+.flex-item-img {
+  width: 449.5px;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.modal-header-margin {
+  margin-bottom: 15px;
+}
+
+.modal-font {
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+.bg-grey {
+  background-color: #f6f6f6;
+}
+
+.jumbotron {
+  background-color: #405FF0;
+  color: #fff;
+  padding: 100px 25px;
+}
+
+.container-fluid-about {
+  padding: 60px 50px;
+}
+
+.logo-small {
+  color: #405FF0;
+  font-size: 50px;
+}
+
+.logo {
+  color: #405FF0;
+  font-size: 200px;
+}
+
+.container-fluid-about h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.container-fluid-about h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.navbar-bg-about {
+  background-color: #0f0f40;
 }

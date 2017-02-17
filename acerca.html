@@ -39,13 +39,11 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
 
-  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
-
 </head>
 
 <body id="page-top">
 
-  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-bg-about">
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
@@ -58,7 +56,7 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          <li>
+          <li class="active">
             <a class="page-scroll" href="index.html#about">¿Quiénes somos?</a>
           </li>
           <li>
@@ -67,7 +65,7 @@
           <li>
             <a class="page-scroll" href="index.html#portfolio">Productos</a>
           </li>
-          <li class="active">
+          <li>
             <a class="page-scroll" href="contactanos.html">Contáctanos</a>
           </li>
         </ul>
@@ -77,53 +75,34 @@
     <!-- /.container-fluid -->
   </nav>
 
-  <section id="contact">
-    <div class="container">
+  <section>
+    <div class="container-fluid-about">
       <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading">Contáctanos</h2>
-          <hr class="primary">
-          <div class="col-lg-4 col-lg-offset-2 text-center">
-            <i class="fa fa-phone fa-3x sr-contact text-primary"></i>
-            <p class="white">(+51) (1) 243 9090</p>
-          </div>
-          <div class="col-lg-4 text-center">
-            <i class="fa fa-envelope-o fa-3x sr-contact text-primary"></i>
-            <p class="white">consulting@angkorperu.com</p>
-          </div>
+        <div class="col-sm-8">
+          <h2>Acerca de nosotros</h2>
+          <h4>Somos una firma de consultoría de negocios y de tecnologías de información fundada en el año 2003 por un equipo multidisciplinario de profesionales de reconocido prestigio y amplia trayectoria habiéndose desempeñado como Socios y Directivos de firmas internacionales líderes en servicios profesionales en las prácticas de Consultoría y Auditoría.</h4>
+          <h4>Ofrecemos a las empresas y a sus directivos <strong>servicios de consultoría</strong> especializada y un amplio portafolio de <strong>soluciones empresariales</strong> de Tecnologías de Información que permitan atender sus necesidades específicas, implementar sus proyectos estratégicos, optimizar sus procesos de negocio así como mejorar sus controles y cumplimientos a nuevas regulaciones locales y globales con el objetivo final de contribuir a mejorar sus beneficios y potenciar sus ventajas competitivas.</h4>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-12">
-          <form name="sentMessage" id="contactForm" novalidate>
-            <div class="row">
-              <div class="col-md-6">
-                <div id="contact_map" class="contact-map"></div>
-              </div>
-              <div class="col-md-6">
-                <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Tu nombre *" id="name" required data-validation-required-message="Por favor ingresa tu nombre.">
-                  <p class="help-block text-danger"></p>
-                </div>
-                <div class="form-group">
-                  <input type="email" class="form-control" placeholder="Tu correo *" id="email" required data-validation-required-message="Por favor ingresa tu correo.">
-                  <p class="help-block text-danger"></p>
-                </div>
-                <div class="form-group">
-                  <textarea class="form-control" placeholder="Tu mensaje *" id="message" required data-validation-required-message="Por favor ingresa un mensaje."></textarea>
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <div class="clearfix"></div>
-              <div class="col-lg-12 text-center">
-                <div id="success"></div>
-                <button type="submit" class="btn btn-xl btn-primary">Enviar mensaje</button>
-              </div>
-            </div>
-          </form>
+        <div class="col-sm-4 text-center vertical-center">
+          <span class="glyphicon glyphicon-signal logo"></span>
         </div>
       </div>
     </div>
+
+    <div class="container-fluid-about bg-grey">
+      <div class="row">
+        <div class="col-sm-4 text-center">
+          <span class="glyphicon glyphicon-globe logo"></span> 
+        </div>
+        <div class="col-sm-8">
+          <h2>Nuestros valores</h2>
+          <h4><strong>MISION:</strong> Asistir y apoyar a nuestros clientes para contribuir a mejorar sus beneficios mediante el desarrollo de servicios y soluciones que agreguen valor a sus negocios y por nuestra cercanía, sentido de urgencia y valores de nuestro equipo, constituirnos en sus socios de confianza.</h4> 
+          <h4><strong>VISION:</strong> Ser la mejor firma de servicios profesionales de negocios y tecnologías de información en organizaciones en crecimiento por la relación de confianza, el compromiso y el aporte de valor que reconocen y recomiendan entusiastamente nuestros clientes </h4>
+          <h4><strong>EQUIPO:</strong> Está compuesto por calificados profesionales que han logrado combinar experiencias, talentos, conocimientos y mejores prácticas para responder a las exigencias de nuestros clientes con pasión y excelencia</h4>
+        </div>
+      </div>
+    </div>
+
   </section>
 
   <footer>
