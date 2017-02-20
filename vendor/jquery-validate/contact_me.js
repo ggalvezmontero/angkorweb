@@ -19,8 +19,20 @@ $(function() {
             if (firstName.indexOf(' ') >= 0) {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
+
             $.ajax({
-                url: "././mail/contact_me.php",
+                url: "asd.json",
+                type: 'get',
+                success: function(data) {
+                    console.log(data);
+                },
+                error: function() {
+                    console.log("no entro u.u");
+                },
+            });
+
+            $.ajax({
+                url: "./mail.php",
                 type: "POST",
                 data: {
                     name: name,
@@ -50,7 +62,7 @@ $(function() {
                     $('#success > .alert-danger').append($("<strong>").text("Sorry " + firstName + ", it seems that my mail server is not responding. Please try again later!"));
                     $('#success > .alert-danger').append('</div>');
                     //clear all fields
-                    $('#contactForm').trigger("reset");
+                    //$('#contactForm').trigger("reset");
                 },
             });
         },
