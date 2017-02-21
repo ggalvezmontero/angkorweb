@@ -5,7 +5,7 @@ jQuery(document).ready(function($) {
         google.maps.event.addDomListener(window, 'load', contactusMap);
     }
 
-    /* Contaact Map */
+    /* Contact Map */
     var map;
     function contactusMap() {
 
