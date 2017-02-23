@@ -273,3 +273,12 @@ section#contact .text-danger {
 .no-margin-bottom {
   margin-bottom: 0px !important;
 }
+
+.font-16 {
+  font-size: 16px;
+}
+
+.hr-lg {
+  border-width: 2px;
+  max-width: none;
+}
