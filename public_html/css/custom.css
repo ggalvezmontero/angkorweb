@@ -282,3 +282,7 @@ section#contact .text-danger {
   border-width: 2px;
   max-width: none;
 }
+
+.close {
+  font-size: 30px !important;
+}
