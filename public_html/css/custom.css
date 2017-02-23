@@ -259,3 +259,17 @@ section#contact .text-danger {
 .invisible {
   visibility:hidden;
 }
+
+.form-input-left {
+  padding-left: 0px; 
+  padding-right: 5px;
+}
+
+.form-input-right {
+  padding-left: 5px; 
+  padding-right: 0px;
+}
+
+.no-margin-bottom {
+  margin-bottom: 0px !important;
+}
