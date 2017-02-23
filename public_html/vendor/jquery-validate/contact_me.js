@@ -20,19 +20,9 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
 
+            console.log(email);
             $.ajax({
-                url: "asd.json",
-                type: 'get',
-                success: function(data) {
-                    console.log(data);
-                },
-                error: function() {
-                    console.log("no entro u.u");
-                },
-            });
-
-            $.ajax({
-                url: "./mail.php",
+                url: "./sendmail.php",
                 type: "POST",
                 data: {
                     name: name,
