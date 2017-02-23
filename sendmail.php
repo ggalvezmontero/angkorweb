@@ -1,5 +1,5 @@
 <?php 
- 	if(isset($_POST['email'])){
+ 	if(isset($_POST['submit'])){
  		$email_to ="jchu@angkorperu.com";
  		$email_subject=$_POST['email'];
  		if(!isset($_POST['name']) || !isset($_POST['email']) || !isset($_POST['phone']) || !isset($_POST['message'])){
