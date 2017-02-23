@@ -192,8 +192,11 @@ section#contact .text-danger {
 
 .modal-font {
   font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-  cursor: pointer;
   text-decoration: none !important;
+}
+
+p {
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
 .bg-grey {
