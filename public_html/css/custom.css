@@ -289,3 +289,42 @@ p {
 .close {
   font-size: 30px !important;
 }
+
+.join-box {
+  background-color: #182256;
+}
+
+.join-box:hover {
+  background-color: #0c1231;
+}
+
+.join-info {
+  padding: 20px 10px;
+}
+
+.join-info > p, 
+.join-info > h1, 
+.join-info > h2, 
+.join-info > h3, 
+.join-info > h4, 
+.join-info > h5, 
+.join-info > h6 {
+  color: white;
+}
+
+.join-info > p {
+  margin: 35px 0px 20px 0px;
+}
+
+.join-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.join-container > .flex-container > .flex-item {
+  height: 100% !important;
+}
+
+.no-decoration {
+  text-decoration: none !important;
+}
