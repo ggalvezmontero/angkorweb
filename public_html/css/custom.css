@@ -328,3 +328,59 @@ p {
 .no-decoration {
   text-decoration: none !important;
 }
+
+#profExperiencia{
+  background-color: #222222;
+  padding: 5%;
+}
+
+.custom-select select option{
+  padding:12px 0px 10px 24px;
+}
+
+section#profExperiencia .form-group {
+  margin-bottom: 25px;
+}
+section#profExperiencia .form-group input,
+section#profExperiencia .form-group textarea {
+  padding: 10px;
+}
+section#profExperiencia .form-group input.form-control {
+  height: auto;
+}
+section#profExperiencia .form-group textarea.form-control {
+  height: 236px;
+}
+section#profExperiencia .form-control:focus {
+  border-color: #fed136;
+  box-shadow: none;
+}
+section#profExperiencia ::-webkit-input-placeholder {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #bbbbbb;
+}
+section#profExperiencia :-moz-placeholder {
+  /* Firefox 18- */
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #bbbbbb;
+}
+section#profExperiencia ::-moz-placeholder {
+  /* Firefox 19+ */
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #bbbbbb;
+}
+section#profExperiencia :-ms-input-placeholder {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #bbbbbb;
+}
+section#profExperiencia .text-danger {
+  color: #e74c3c;
+}
