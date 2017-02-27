@@ -240,8 +240,10 @@ p {
     text-align: justify;
 }
 
-.navbar-bg-about {
-  background-color: #182256;
+@media (min-width: 768px) {
+  .navbar-bg-about {
+    background-color: #182256;
+  }
 }
 
 @media (min-width: 768px) {
@@ -330,8 +332,9 @@ p {
 }
 
 #profExperiencia{
-  background-color: #222222;
-  padding: 5%;
+  background-color: #ffffff;
+  padding-right: 5%;
+  padding-left: 5%;
 }
 
 .custom-select select option{
@@ -342,9 +345,15 @@ section#profExperiencia .form-group {
   margin-bottom: 25px;
 }
 section#profExperiencia .form-group input,
-section#profExperiencia .form-group textarea {
+section#profExperiencia .form-group textarea,
+section#profExperiencia .form-group select {
   padding: 10px;
 }
+
+section#profExperiencia .form-group select {
+  height: auto;
+}
+
 section#profExperiencia .form-group input.form-control {
   height: auto;
 }
@@ -383,4 +392,52 @@ section#profExperiencia :-ms-input-placeholder {
 }
 section#profExperiencia .text-danger {
   color: #e74c3c;
+}
+
+button.accordion {
+    background-color: #efefff;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #ddf;
+}
+
+div.accordion-panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    margin-bottom: 6px;
+    transition: max-height 0.2s ease-out;
+}
+
+.rotate {
+    -moz-transition: all 0.1s linear;
+    -webkit-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+
+.rotate.down{
+    -ms-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+    transform:rotate(90deg);
+}
+
+.panel-content {
+  padding-top: 20px;
+}
+
+.form-input {
+  padding-left: 0px; 
+  padding-right: 0px;
 }
