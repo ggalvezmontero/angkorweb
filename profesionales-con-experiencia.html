@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Angkor Group</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="public_html/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href="public_html/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+  <!-- Plugin CSS -->
+  <link href="public_html/vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <link href="public_html/vendor/slick/slick.css" rel="stylesheet">
+  <link href="public_html/vendor/slick/slick-theme.css" rel="stylesheet">
+
+  <link href="public_html/css/variables.css" rel="stylesheet">
+  <!-- Theme CSS -->
+  <link href="public_html/css/creative.min.css" rel="stylesheet">
+  <link href="public_html/css/custom.css" rel="stylesheet">
+  <link href="public_html/css/customSelect.css" rel="stylesheet">
+  <link href="public_html/css/checkbox.css" rel="stylesheet">
+
+  <!-- Animate CSS -->
+  <link href="public_html/css/animate.css" rel="stylesheet">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+</head>
+
+<body id="page-top">
+
+  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-bg-about">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Navegador</span> Menú <i class="fa fa-bars"></i>
+        </button>
+        <a class="navbar-brand page-scroll" href="index.html">Angkor Group</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a class="page-scroll" href="index.html#about">¿Quiénes somos?</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="index.html#services">Servicios</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="index.html#portfolio">Soluciones</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="contactanos.html">Contáctanos</a>
+          </li>
+          <li class="active-aux">
+            <a class="page-scroll" href="unete.html">Únete</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+
+  <section id="profExperiencia">
+    <form>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label>Nombres</label>
+            <input type="text" class="form-control" id="name" name="name" required data-validation-required-message="Por favor ingresa tu nombre.">
+            <p class="help-block text-danger"></p>
+          </div>
+          <div class="form-group">
+            <label>Apellido paterno</label>
+            <input type="text" class="form-control" name ="apPaterno" id="apPaterno" required data-validation-required-message="Por favor ingresa tu apellido paterno.">
+            <p class="help-block text-danger"></p>
+          </div>
+          <div class="form-group">
+            <label>Apellido materno</label>
+            <input type="text" class="form-control" id="apMaterno" name="apMaterno" required data-validation-required-message="Por favor ingresa tu apellido materno.">
+            <p class="help-block text-danger"></p>
+          </div>
+          <div class="form-group">
+            <label>Email</label>
+            <input type="email" class="form-control" name ="email" id="email" required data-validation-required-message="Por favor ingresa tu correo.">
+            <p class="help-block text-danger"></p>
+          </div>
+          <div class="form-group custom-select">
+            <div class ="col-md-6 form-input-left custom-select">
+              <label>Tipo de documento</label>
+              <select type="text" class="form-control" id="tipoDoc" name="tipoDoc">
+                <option>DNI</option>
+                <option>Carnet de Extranjería</option>
+                <option>Pasaporte</option>
+              </select>
+              <p class="help-block text-danger"></p>
+            </div>
+            <div class = "col-md-6 form-input-right">
+              <label>Número de documento</label>
+              <input type="text" class="form-control" id="numDoc" name ="numDoc" >
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Área de interés</label>
+              <div>
+                <input type="checkbox" id="c1" name="cc" />
+                <label for="c1"><span></span>Consultoría</label>
+              </div>
+              <div>
+                <input type="checkbox" id="c2" name="cc" />
+                <label for="c2"><span></span>Tecnologías de Información</label>
+              </div>
+              <div>
+                <input type="checkbox" id="c3" name="cc" />
+                <label for="c3"><span></span>Outsourcing</label>
+              </div>
+              <div>
+                <input type="checkbox" id="c4" name="cc" />
+                <label for="c4"><span></span>Administración</label>
+              </div>
+
+              <div class="squaredThree">
+                <input type="checkbox" value="None" id="squaredThree4" name="check" />
+                <label for="squaredThree">Administración</label>
+              </div>
+            <p class="help-block text-danger"></p>
+          </div>
+          <div id="consultoria" class="form-group" style="display: none;">
+            <label>Seleccione las áreas de consultoría que le interesen</label>
+              <div>
+                <input type="checkbox" id="c1C" name="cc" />
+                <label for="c1C"><span></span>Procesos</label>
+              </div>
+              <div>
+                <input type="checkbox" id="c2C" name="cc" />
+                <label for="c2C"><span></span>Riesgos</label>
+              </div>
+              <div>
+                <input type="checkbox" id="c3C" name="cc" />
+                <label for="c3C"><span></span>Recursos Humanos</label>
+              </div>
+              <div>
+                <input type="checkbox" id="c4C" name="cc" />
+                <label for="c4C"><span></span>Gestión de Proyectos</label>
+              </div>
+          </div>
+          <div id="tecInf" class="form-group" style="display: none;">
+            <label>Seleccione las áreas de Tecnologías de Información que le interesen</label>
+              <div>
+                <input type="checkbox" id="c1T" name="cc" />
+                <label for="c1T"><span></span>Desarrollo</label>
+              </div>
+              <div>
+                <input type="checkbox" id="c2t" name="cc" />
+                <label for="c2T"><span></span>Implementación de soluciones</label>
+              </div>
+              <div>
+                <input type="checkbox" id="c3T" name="cc" />
+                <label for="c3T"><span></span>Base de Datos</label>
+              </div>
+              <div>
+                <input type="checkbox" id="c4T" name="cc" />
+                <label for="c4T"><span></span>Inteligencia de Negocios</label>
+              </div>
+              <div>
+                <input type="checkbox" id="c5T" name="cc" />
+                <label for="c5T"><span></span>Infraestructura</label>
+              </div>              
+          </div>
+          <div id="outsoursing" class="form-group" style="display: none;">
+            <label>Seleccione las áreas de Outsoursing que le interesen</label>
+              <div>
+                <input type="checkbox" id="c1O" name="cc" />
+                <label for="c1O"><span></span>Mantenimiento de Aplicaciones</label>
+              </div>
+              <div>
+                <input type="checkbox" id="c2O" name="cc" />
+                <label for="c2O"><span></span>Fábrica de Software</label>
+              </div>
+              <div>
+                <input type="checkbox" id="c3O" name="cc" />
+                <label for="c3O"><span></span>Business Process Outsourcing</label>
+              </div>
+              <div>
+                <input type="checkbox" id="c4O" name="cc" />
+                <label for="c4O"><span></span>Base de Datos Oracle</label>
+              </div>
+          </div>
+          <div id="administracion" class="form-group" style="display: none;">
+            <label>Seleccione las áreas de Administración  que le interesen</label>
+              <div>
+                <input type="checkbox" id="c1A" name="cc" />
+                <label for="c1A"><span></span>RRHH</label>
+              </div>
+              <div>
+                <input type="checkbox" id="c2A" name="cc" />
+                <label for="c2A"><span></span>Contabilidad</label>
+              </div>
+              <div>
+                <input type="checkbox" id="c3A" name="cc" />
+                <label for="c3A"><span></span>Tesorería</label>
+              </div>
+              <div>
+                <input type="checkbox" id="c4A" name="cc" />
+                <label for="c4A"><span></span> Facturación y Cobranzas</label>
+              </div>
+              <div>
+                <input type="checkbox" id="c5A" name="cc" />
+                <label for="c5A"><span></span>Logística</label>
+              </div>              
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" placeholder="Mensaje *" id="message" name="message" required data-validation-required-message="Por favor ingresa un mensaje."></textarea>
+            <p class="help-block text-danger"></p>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="col-lg-12 text-center">
+          <div id="success"></div>
+          <button type="submit" class="btn btn-xl btn-primary">Enviar mensaje</button>
+        </div>
+      </div>
+    </form>
+  </section>
+
+  <footer>
+    <div class="footer">
+      <div class="copyright">
+        <div class="container">
+          <a href="javascript:void(0);">Copyright &copy; Angkor Group S.A.C. LIMA - PERU</a>
+          <div>Jr. Monte Rosa 270 Oficina 402 | Chacarilla del Estanque | Surco | Lima - Perú</div>
+          <div>Teléfono: + 51 (1) 243 9090 + 51 (1) 633 4168 | Fax: + 51 (1) 243 9090</div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#0" class="cd-top">Top</a>
+
+  <!-- jQuery -->
+  <script src="public_html/vendor/jquery/jquery.min.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="public_html/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+  <script src="public_html/vendor/scrollreveal/scrollreveal.min.js"></script>
+  <script src="public_html/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <script src="public_html/vendor/slick/slick.min.js"></script>
+
+  <!-- Theme JavaScript -->
+  <script src="public_html/js/creative.min.js"></script>
+
+  <!-- Contact Form JavaScript -->
+  <script src="public_html/vendor/jquery-validate/contact_me.js"></script>
+  <script src="public_html/vendor/jquery-validate/jqBootstrapValidation.js"></script>
+
+  <!-- Custom Javascript -->
+  <script src="public_html/js/to-top.js"></script>
+  <script src="public_html/js/map.js"></script>
+
+  <script type="text/javascript">
+
+  function checkbox_change(checkbox, content){
+    if($(checkbox).is(":checked"))
+      $(content).show();
+    else
+      $(content).hide();
+  }
+    
+  $("#c1").change(function(){
+    checkbox_change("#c1","#consultoria");
+  });
+  $("#c2").change(function(){
+    checkbox_change("#c2","#tecInf");
+  });
+  $("#c3").change(function(){
+    checkbox_change("#c3","#outsoursing");
+  });
+  $("#c4").change(function(){
+    checkbox_change("#c4","#administracion");
+  });
+
+    // Iterate over each select element
+$('select').each(function () {
+
+    // Cache the number of options
+    var $this = $(this),
+        numberOfOptions = $(this).children('option').length;
+
+    // Hides the select element
+    $this.addClass('s-hidden');
+
+    // Wrap the select element in a div
+    $this.wrap('<div class="select"></div>');
+
+    // Insert a styled div to sit over the top of the hidden select element
+    $this.after('<div class="styledSelect"></div>');
+
+    // Cache the styled div
+    var $styledSelect = $this.next('div.styledSelect');
+
+    // Show the first select option in the styled div
+    $styledSelect.text($this.children('option').eq(0).text());
+
+    // Insert an unordered list after the styled div and also cache the list
+    var $list = $('<ul />', {
+        'class': 'options'
+    }).insertAfter($styledSelect);
+
+    // Insert a list item into the unordered list for each select option
+    for (var i = 0; i < numberOfOptions; i++) {
+        $('<li />', {
+            text: $this.children('option').eq(i).text(),
+            rel: $this.children('option').eq(i).val()
+        }).appendTo($list);
+    }
+
+    // Cache the list items
+    var $listItems = $list.children('li');
+
+    // Show the unordered list when the styled div is clicked (also hides it if the div is clicked again)
+    $styledSelect.click(function (e) {
+        e.stopPropagation();
+        $('div.styledSelect.active').each(function () {
+            $(this).removeClass('active').next('ul.options').hide();
+        });
+        $(this).toggleClass('active').next('ul.options').toggle();
+    });
+
+    // Hides the unordered list when a list item is clicked and updates the styled div to show the selected list item
+    // Updates the select element to have the value of the equivalent option
+    $listItems.click(function (e) {
+        e.stopPropagation();
+        $styledSelect.text($(this).text()).removeClass('active');
+        $this.val($(this).attr('rel'));
+        $list.hide();
+        /* alert($this.val()); Uncomment this for demonstration! */
+    });
+
+    // Hides the unordered list when clicking outside of it
+    $(document).click(function () {
+        $styledSelect.removeClass('active');
+        $list.hide();
+    });
+
+});
+  </script>
+</body>
+</html>
