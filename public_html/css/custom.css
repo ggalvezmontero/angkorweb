@@ -454,3 +454,7 @@ div.accordion-panel {
 .img-circle {
   border-radius: 15%;
 }
+
+.img-solution {
+  width: 100%;
+}
