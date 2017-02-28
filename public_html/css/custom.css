@@ -363,6 +363,7 @@ section#profExperiencia .form-group input.form-control {
 }
 section#profExperiencia .form-group textarea.form-control {
   height: auto;
+  margin-bottom: 15px;
 }
 section#profExperiencia .form-control:focus {
   border-color: #fed136;
