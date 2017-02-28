@@ -11,6 +11,9 @@
 
   <title>Angkor Group</title>
 
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/png" href="public_html/favicon.png"/>
+
   <!-- Bootstrap Core CSS -->
   <link href="public_html/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -326,15 +329,15 @@
           var element_position = element.offset().top;
           var window_position = $(window).scrollTop();
 
-          var offset = 500;
+          var offset = 700;
 
           if (element_position-offset < window_position && element_position+offset > window_position) {
             element.removeClass('to-slide invisible');
 
             if (index % 2 == 0){
-              element.addClass('animated fadeInLeftBig');
+              element.addClass('animated fadeInLeft');
             } else {
-              element.addClass('animated fadeInRightBig');
+              element.addClass('animated fadeInRight');
             }
           }
         }
