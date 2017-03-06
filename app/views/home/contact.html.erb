@@ -1,0 +1,98 @@
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Navegador</span> Menú <i class="fa fa-bars"></i>
+      </button>
+      <a class="navbar-brand" href="/">Angkor Group</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a href="/#about">¿Quiénes somos?</a>
+        </li>
+        <li>
+          <a href="/#services">Servicios</a>
+        </li>
+        <li>
+          <a href="/#portfolio">Soluciones</a>
+        </li>
+        <li>
+          <a href="/partners">Partners</a>
+        </li>
+        <li class="active">
+          <a href="/contactanos">Contáctanos</a>
+        </li>
+        <li>
+          <a href="/unete">Únete</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Contáctanos</h2>
+        <hr class="primary">
+        <div class="col-lg-4 col-lg-offset-2 text-center">
+          <i class="fa fa-phone fa-3x sr-contact text-primary"></i>
+          <p class="white">(+51) (1) 243 9090</p>
+        </div>
+        <div class="col-lg-4 text-center">
+          <i class="fa fa-envelope-o fa-3x sr-contact text-primary"></i>
+          <p class="white">consulting@angkorperu.com</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <form name="sentMessage" method="post" id="contactForm" action="sendmail.php" novalidate>
+          <div class="row">
+            <div class="col-md-6">
+              <div id="contact_map" class="contact-map"></div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group no-margin-bottom">
+                <input type="text" class="form-control" placeholder="Nombre *" id="name" name="name" required data-validation-required-message="Por favor ingresa tu nombre.">
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group">
+                	<div class ="col-md-6 form-input-left">
+	                	<input type="email" class="form-control" name ="email" placeholder="Correo *" id="email" required data-validation-required-message="Por favor ingresa tu correo.">
+	                 	<p class="help-block text-danger"></p>
+	                </div>
+	                <div class = "col-md-6 form-input-right">
+	                	<input type="phone" class="form-control" placeholder="Telefono *" id="phone" name="phone" required data-validation-required-message="Por favor ingresa tu telefono.">
+	                	<p class="help-block text-danger"></p>
+	                </div>
+              </div>
+              <div class="form-group">
+                	<div class ="col-md-6 form-input-left">
+	                	<input type="empresa" class="form-control" placeholder="Empresa de contacto " id="business" name="business">
+                    <p class="help-block text-danger"></p>
+	                </div>
+	                <div class = "col-md-6 form-input-right">
+	                	<input type="phone" class="form-control" placeholder="Cargo " id="position" name ="position" >
+                    <p class="help-block text-danger"></p>
+	                </div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" placeholder="Mensaje *" id="message" name="message" required data-validation-required-message="Por favor ingresa un mensaje."></textarea>
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-lg-12 text-center">
+              <div id="success"></div>
+              <button type="submit" class="btn btn-xl btn-primary">Enviar mensaje</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
