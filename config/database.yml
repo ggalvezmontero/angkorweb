@@ -48,6 +48,7 @@ test:
 #
 production:
   <<: *default
+  adapter: pg
   database: angkorweb_production
   username: angkorweb
   password: <%= ENV['ANGKORWEB_DATABASE_PASSWORD'] %>
