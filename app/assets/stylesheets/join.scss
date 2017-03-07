@@ -1,0 +1,87 @@
+// Place all the styles related to the join controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import "base/variables";
+@import "base/mixins";
+
+.join-box {
+  background-color: darken($theme-primary, 40%);
+
+  &:hover {
+    background-color: darken($theme-primary, 47%);
+  }
+
+  .join-info {
+    color: white;
+    padding: 20px 10px;
+    height: 150px;
+
+    p {
+      margin: 35px 0px 20px 0px;
+    }
+  }
+}
+
+.join-container {
+  width: 80%;
+  margin: 0 auto;
+
+  > .flex-container {
+    > .flex-item {
+      height: 100% !important;
+    }
+  }
+}
+
+.join-view-detail {
+  background-color: white;
+  padding-right: 5%;
+  padding-left: 5%;
+  font-weight: 300;
+
+  img {
+    display: initial;
+    margin-bottom: 20px;
+  }
+}
+
+section#joinForm {
+  .form-group {
+    margin-bottom: 25px;
+
+    .form-control {
+      padding: 10px;
+      height: auto;
+
+      &:focus {
+        border-color: $theme-primary;
+        box-shadow: none;
+      }
+    }
+
+    textarea {
+      margin-bottom: 15px;
+    }
+  }
+
+  .text-danger {
+    color: #e74c3c;
+  }
+
+  .join-button {
+    margin-top: 20px !important;
+  }
+
+  @include placeholder {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #bbbbbb;
+  }
+} 
+
+.form-input {
+  padding-left: 0px; 
+  padding-right: 0px;
+}
