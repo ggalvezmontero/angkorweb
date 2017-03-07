@@ -121,7 +121,7 @@ aside {
     }
   }
   @media (min-width: 768px) {
-    background-color: transparent;
+    background-color: transparentize(black, 0.3);
     border-color: transparentize(white, 0.7);
 
     .navbar-header .navbar-brand {

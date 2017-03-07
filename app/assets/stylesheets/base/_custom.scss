@@ -184,3 +184,73 @@ div.accordion-panel {
     @include rotate(90deg);
   }
 }
+
+// Dropdown
+
+.navbar-default {
+  .nav {
+    li {
+      &.open {
+        a:hover, a:focus {
+          background-color: transparentize(black, 0.7);
+          color: white;
+        }
+      }
+
+      .dropdown-menu {
+        background-color: transparentize(black, 0.3);
+        font-size: 16px;
+        font-weight: 500;
+        li {
+          color: white !important;
+          a {
+            color: transparentize(white,0.3);
+            &:hover, &:focus {
+              background-color: transparentize(black, 0.3);
+            }
+          }
+
+          h4 {
+            color: white !important;
+            text-align: center;
+          }
+        } 
+      }
+    }
+  }
+  @media (min-width: 768px) {
+
+    &.affix {
+      .nav {
+        li {
+          &.open {
+            a:hover, a:focus {
+              background-color: white;
+              color: $theme-primary;
+            }
+          }
+
+          .dropdown-menu {
+            background-color: white;
+            font-size: 16px;
+            li {
+              a {
+                color: transparentize(black,0.3);
+                &:hover, &:focus {
+                  background-color: transparentize($gray-lighter, 0.3);
+                  color: $theme-primary
+                }
+              }
+
+              h4 {
+                color: black !important;
+                text-align: center;
+                font-weight: 500;
+              }
+            } 
+          }
+        }
+      }
+    }
+  }
+}
