@@ -18,6 +18,6 @@ class HomeController < ApplicationController
 
 	def send_contact_form
 		ActionCorreo.contact(params)
-		render :template => "home/contact"
+		redirect_to action: "contact"
 	end
 end
