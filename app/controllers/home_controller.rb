@@ -17,7 +17,7 @@ class HomeController < ApplicationController
 	end
 
 	def send_contact_form
-		ActionCorreo.contact(params)
+		ActionCorreo.contact(params).deliver_now
 		redirect_to action: "contact"
 	end
 end

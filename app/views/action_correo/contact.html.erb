@@ -5,14 +5,14 @@
   </head>
   <body>
     <p>
-      <%= @user.message %>.<br/>
+      <%= @user[:message] %>.<br/>
     </p>
     <p>
       <small>
-        <%= @user.name %><br/>
-        <%= @user.phone %><br/>
-        <%= @user.business %><br/>
-        <%= @user.position %><br/>
+        <%= @user[:name] %><br/>
+        <%= @user[:phone] %><br/>
+        <%= @user[:business] %><br/>
+        <%= @user[:position] %><br/>
       </small>
     </p>
   </body>
