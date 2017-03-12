@@ -1,5 +1,5 @@
 class ActionCorreo < ApplicationMailer
-	default to: 'renzo.zuniga@pucp.edu.pe'
+	default to: 'aespichan@angkorperu.com'
 
 	def contact(user)
 	  @user = user
