@@ -1,5 +1,5 @@
 class HomeController < ApplicationController
-	skip_before_filter :verify_authenticity_token, :only => :send_contact_form
+	skip_before_filter :verify_authenticity_token
 
 	def index
 	end
@@ -11,13 +11,10 @@ class HomeController < ApplicationController
 	end
 
 	def contact
+		@contact = Contact.new
 	end
 
 	def solutions
 	end
 
-	def send_contact_form
-		ActionCorreo.contact(params).deliver_now
-		redirect_to action: "contact"
-	end
 end

@@ -1,8 +1,8 @@
 class ActionCorreo < ApplicationMailer
-	default to: 'renzo.zuniga@pucp.edu.pe'
+  default to: 'aespichan@angkorperu.com'
 
-	def contact(user)
-	  @user = user
-	  mail from: @user[:email], subject: 'Un usuario quiere contactarse con usted'
-	end
+  def contact(params)
+    @contact = params
+    mail from: @contact.email, subject: 'Un usuario quiere contactarse con usted'
+  end
 end
