@@ -65,6 +65,6 @@ Rails.application.routes.draw do
   get 'unete/profesionales-jovenes' => 'join#young'
   get 'unete/practicantes' => 'join#students'
 
-  post 'enviar_contacto' => 'home#send_contact_form'
+  resources :contacts, only: [:new, :create]
 
 end
