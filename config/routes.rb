@@ -66,5 +66,6 @@ Rails.application.routes.draw do
   get 'unete/practicantes' => 'join#students'
 
   resources :contacts, only: [:new, :create]
+  resources :possible_members, only: [:new, :create]
 
 end

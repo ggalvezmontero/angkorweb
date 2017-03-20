@@ -6,80 +6,71 @@
         <hr class="primary">
       </div>
     </div>
-    <form action="/join/apply" method="post">
-      <input type="hidden" name="type" value="<%= @type %>">
+    <%= form_for @member, url: possible_members_path, html: {id: "joinUsForm", multipart: true} do |f| %>
       <div class="row">
         <div class="col-md-6">
-
+          <%= f.hidden_field :member_type, value: @type %>
           <div class="form-group">
             <label>Nombres</label>
-            <input type="text" class="form-control" id="name" name="name" required data-validation-required-message="Por favor ingresa tu nombre.">
+            <%= f.text_field :first_name, class: "form-control", required: true, data: {"validation-required-message": "Por favor ingresa tu nombre"} %>
             <p class="help-block text-danger"></p>
           </div>
 
           <div class="form-group">
             <label>Apellido paterno</label>
-            <input type="text" class="form-control" name ="apPaterno" id="apPaterno" required data-validation-required-message="Por favor ingresa tu apellido paterno.">
+            <%= f.text_field :first_surname, class: "form-control", required: true, data: {"validation-required-message": "Por favor ingresa tu apellido paterno."} %>
             <p class="help-block text-danger"></p>
           </div>
 
           <div class="form-group">
             <label>Apellido materno</label>
-            <input type="text" class="form-control" id="apMaterno" name="apMaterno" required data-validation-required-message="Por favor ingresa tu apellido materno.">
+            <%= f.text_field :last_surname, class: "form-control", required: true, data: {"validation-required-message": "Por favor ingresa tu apellido materno."} %>
             <p class="help-block text-danger"></p>
           </div>
 
           <div class="form-group">
             <label>Correo electrónico</label>
-            <input type="email" class="form-control" name ="email" id="email" required data-validation-required-message="Por favor ingresa tu correo.">
+            <%= f.text_field :email, class: "form-control", required: true, data: {"validation-required-message": "Por favor ingresa tu correo."} %>
             <p class="help-block text-danger"></p>
           </div>
-
           <div class ="col-sm-6 form-input-left">
             <div class="form-group">
               <label>Tipo de documento</label>
-              <select class="form-control" name="tipoDoc">
-                <option value="0">DNI</option>
-                <option value="1">Carnet de Extranjería</option>
-                <option value="2">Pasaporte</option>
-              </select>
+              <%= f.select :document_type, [["DNI", 0], ["Carnet de Extranjería", 1], ["Pasaporte", 2]], {}, class: "form-control"  %>
             </div>
           </div>
           <div class="col-sm-6 form-input-right">
             <div class="form-group">
               <label>Número de documento</label>
-              <input type="text" class="form-control" id="numDoc" name ="numDoc" required="">
+              <%= f.text_field :document_number, class: "form-control", required: true %>
               <p class="help-block text-danger"></p>
             </div>
           </div>
 
           <% if @type == 'students' %>
 
-          <div class ="col-lg-12 form-input">
-            <div class="form-group">
-              <label>Tipo de estudios</label>
-              <select class="form-control" id="tipoEstudio" name="tipoEstudio">
-                <option value="0">Universitario</option>
-                <option value="1">Técnico</option>
-              </select>
+            <div class ="col-lg-12 form-input">
+              <div class="form-group">
+                <label>Tipo de estudios</label>
+                <%= f.select :study_type, [["Universitario", 0], ["Técnico", 1]], {}, class: "form-control"  %>
+              </div>
             </div>
-          </div>
 
-          <div class="col-lg-12 form-input">
-            <div class="form-group">
-              <label>Universidad/Instituto/Escuela</label>
-              <input type="text" class="form-control" id="universidad" name ="universidad" required="">
-              <p class="help-block text-danger"></p>
+            <div class="col-lg-12 form-input">
+              <div class="form-group">
+                <label>Universidad/Instituto/Escuela</label>
+                <%= f.text_field :studies_center, class: "form-control", required: true%>
+                <p class="help-block text-danger"></p>
+              </div>
             </div>
-          </div>
 
-          <div class="col-lg-12 form-input">
-            <div class="form-group">
-              <label>Último ciclo cursado</label>
-              <input type="text" class="form-control" id="ciclo" name ="ciclo" required="">
-              <p class="help-block text-danger"></p>
+            <div class="col-lg-12 form-input">
+              <div class="form-group">
+                <label>Último ciclo cursado</label>
+                <%= f.text_field :last_semester, class: "form-control", required: true %>
+                <p class="help-block text-danger"></p>
+              </div>
             </div>
-          </div>
 
           <% end %>
 
@@ -95,17 +86,29 @@
               <div class="accordion-panel">
                 <div id="consultoria" class="form-group panel-content">
                   <label>Seleccione las áreas de consultoría que le interesen</label>
+                  
                   <div class="checkbox">
-                    <label for="c1C"><input type="checkbox" id="c1C" name="c1C" /> Procesos </label>
+                    <label for="c1C">
+                      <%= f.check_box("consultancy_area", {:multiple => true}, "Procesos", nil) %> Procesos
+                    </label>
                   </div>
                   <div class="checkbox">
-                    <label for="c2C"><input type="checkbox" id="c2C" name="c2C" /> Riesgos</label>
+                    <label for="c2C">
+                    <%= f.check_box("consultancy_area", {:multiple => true}, "Riesgos", nil) %>
+                    Riesgos
+                    </label>
                   </div>
                   <div class="checkbox">
-                    <label for="c3C"><input type="checkbox" id="c3C" name="c3C" /> Recursos Humanos</label>
+                    <label for="c3C">
+                      <%= f.check_box("consultancy_area", {:multiple => true}, "Recursos Humanos", nil) %>
+                      Recursos Humanos
+                    </label>
                   </div>
                   <div class="checkbox">
-                    <label for="c4C"><input type="checkbox" id="c4C" name="c4C" /> Gestión de Proyectos</label>
+                    <label for="c4C">
+                      <%= f.check_box("consultancy_area", {:multiple => true}, "Gestión de Proyectos", nil) %>
+                      Gestión de Proyectos
+                    </label>
                   </div>
                 </div>
               </div>
@@ -118,19 +121,19 @@
                 <div id="tecInf" class="form-group panel-content">
                   <label>Seleccione las áreas de Tecnologías de Información que le interesen</label>
                   <div class="checkbox">
-                    <label for="c1T"><input type="checkbox" id="c1T" name="cc" /> Desarrollo</label>
+                    <label for="c1T"><%= f.check_box("information_technology_area", {:multiple => true}, "Desarrollo", nil) %> Desarrollo</label>
                   </div>
                   <div class="checkbox">
-                    <label for="c2T"><input type="checkbox" id="c2t" name="cc" /> Implementación de soluciones</label>
+                    <label for="c2T"><%= f.check_box("information_technology_area", {:multiple => true}, "Implementación de soluciones", nil) %> Implementación de soluciones</label>
                   </div>
                   <div class="checkbox">
-                    <label for="c3T"><input type="checkbox" id="c3T" name="cc" /> Base de Datos</label>
+                    <label for="c3T"><%= f.check_box("information_technology_area", {:multiple => true}, "Base de Datos", nil) %> Base de Datos</label>
                   </div>
                   <div class="checkbox">
-                    <label for="c4T"><input type="checkbox" id="c4T" name="cc" /> Inteligencia de Negocios</label>
+                    <label for="c4T"><%= f.check_box("information_technology_area", {:multiple => true}, "Inteligencia de Negocios", nil) %> Inteligencia de Negocios</label>
                   </div>
                   <div class="checkbox">
-                    <label for="c5T"><input type="checkbox" id="c5T" name="cc" /> Infraestructura</label>
+                    <label for="c5T"><%= f.check_box("information_technology_area", {:multiple => true}, "Infraestructura", nil) %> Infraestructura</label>
                   </div>
                 </div>
               </div>
@@ -143,16 +146,16 @@
                 <div id="outsoursing" class="form-group panel-content">
                   <label>Seleccione las áreas de Outsourcing que le interesen</label>
                   <div class="checkbox">
-                    <label for="c1O"><input type="checkbox" id="c1O" name="cc" /> Mantenimiento de Aplicaciones</label>
+                    <label for="c1O"><%= f.check_box("outsourcing_area", {:multiple => true}, "Mantenimiento de Aplicaciones", nil) %> Mantenimiento de Aplicaciones</label>
                   </div>
                   <div class="checkbox">
-                    <label for="c2O"><input type="checkbox" id="c2O" name="cc" /> Fábrica de Software</label>
+                    <label for="c2O"><%= f.check_box("outsourcing_area", {:multiple => true}, "Fábrica de Software", nil) %> Fábrica de Software</label>
                   </div>
                   <div class="checkbox">
-                    <label for="c3O"><input type="checkbox" id="c3O" name="cc" /> Business Process Outsourcing</label>
+                    <label for="c3O"><%= f.check_box("outsourcing_area", {:multiple => true}, "Business Process Outsourcing", nil) %> Business Process Outsourcing</label>
                   </div>
                   <div class="checkbox">
-                    <label for="c4O"><input type="checkbox" id="c4O" name="cc" /> Base de Datos Oracle</label>
+                    <label for="c4O"><%= f.check_box("outsourcing_area", {:multiple => true}, "Base de Datos Oracle", nil) %> Base de Datos Oracle</label>
                   </div>
                 </div>
               </div>
@@ -165,19 +168,19 @@
                 <div id="administracion" class="form-group panel-content">
                   <label>Seleccione las áreas de Administración  que le interesen</label>
                   <div class="checkbox">
-                    <label for="c1A"><input type="checkbox" id="c1A" name="cc" /> RRHH</label>
+                    <label for="c1A"><%= f.check_box("administration_area", {:multiple => true}, "RRHH", nil) %> RRHH</label>
                   </div>
                   <div class="checkbox">
-                    <label for="c2A"><input type="checkbox" id="c2A" name="cc" /> Contabilidad</label>
+                    <label for="c2A"><%= f.check_box("administration_area", {:multiple => true}, "Contabilidad", nil) %> Contabilidad</label>
                   </div>
                   <div class="checkbox">
-                    <label for="c3A"><input type="checkbox" id="c3A" name="cc" /> Tesorería</label>
+                    <label for="c3A"><%= f.check_box("administration_area", {:multiple => true}, "Tesorería", nil) %> Tesorería</label>
                   </div>
                   <div class="checkbox">
-                    <label for="c4A"><input type="checkbox" id="c4A" name="cc" /> Facturación y Cobranzas</label>
+                    <label for="c4A"><%= f.check_box("administration_area", {:multiple => true}, "Facturación y Cobranzas", nil) %> Facturación y Cobranzas</label>
                   </div>
                   <div class="checkbox">
-                    <label for="c5A"><input type="checkbox" id="c5A" name="cc" /> Logística</label>
+                    <label for="c5A"><%= f.check_box("administration_area", {:multiple => true}, "Logística", nil) %> Logística</label>
                   </div>
                 </div>
               </div>
@@ -191,27 +194,27 @@
 
             <div class="col-lg-6 form-input">
               <div class="checkbox">
-                <label for="ct1"><input type="checkbox" id="ct1" name="ct1" /> Aplicaciones móviles</label>
+                <label for="ct1"><%= f.check_box("technical_skills", {:multiple => true}, "Aplicaciones móviles", nil) %>Aplicaciones móviles</label>
               </div>
               <div class="checkbox">
-                <label for="ct2"><input type="checkbox" id="ct2" name="ct2" /> Desarrollo web</label>
+                <label for="ct2"><%= f.check_box("technical_skills", {:multiple => true}, "Desarrollo web", nil) %>Desarrollo web</label>
               </div>
               <div class="checkbox">
-                <label for="ct3"><input type="checkbox" id="ct3" name="ct3" /> ERP</label>
+                <label for="ct3"><%= f.check_box("technical_skills", {:multiple => true}, "ERP", nil) %>ERP</label>
               </div>
               <div class="checkbox">
-                <label for="ct4"><input type="checkbox" id="ct4" name="ct4" /> Business intelligence</label>
+                <label for="ct4"><%= f.check_box("technical_skills", {:multiple => true}, "Business intelligence", nil) %>Business intelligence</label>
               </div>
             </div>
             <div class="col-lg-6 form-input">
               <div class="checkbox">
-                <label for="ct5"><input type="checkbox" id="ct5" name="ct5" /> Servicios web</label>
+                <label for="ct5"><%= f.check_box("technical_skills", {:multiple => true}, "Servicios web", nil) %>Servicios web</label>
               </div>
               <div class="checkbox">
-                <label for="ct6"><input type="checkbox" id="ct6" name="ct6" /> ECM</label>
+                <label for="ct6"><%= f.check_box("technical_skills", {:multiple => true}, "ECM", nil) %>ECM</label>
               </div>
               <div class="checkbox">
-                <label for="ct7"><input type="checkbox" id="ct7" name="ct7" /> Aplicaciones móviles</label>
+                <label for="ct7"><%= f.check_box("technical_skills", {:multiple => true}, "Aplicaciones móviles", nil) %>Aplicaciones móviles</label>
               </div>
             </div>
           </div>
@@ -223,42 +226,42 @@
             </div>
             <div class="col-lg-6 form-input">
               <div class="checkbox">
-                <label for="cf1"><input type="checkbox" id="cf1" name="cf1" /> Finanzas</label>
+                <label for="cf1"><%= f.check_box("functional_skills", {:multiple => true}, "Finanzas", nil) %>Finanzas</label>
               </div>
               <div class="checkbox">
-                <label for="cf2"><input type="checkbox" id="cf2" name="cf2" /> RRHH</label>
+                <label for="cf2"><%= f.check_box("functional_skills", {:multiple => true}, "RRHH", nil) %>RRHH</label>
               </div>
               <div class="checkbox">
-                <label for="cf3"><input type="checkbox" id="cf3" name="cf3" /> Logística</label>
+                <label for="cf3"><%= f.check_box("functional_skills", {:multiple => true}, "Logística", nil) %>Logística</label>
               </div>
               <div class="checkbox">
-                <label for="cf4"><input type="checkbox" id="cf4" name="cf4" /> Contabilidad</label>
+                <label for="cf4"><%= f.check_box("functional_skills", {:multiple => true}, "Contabilidad", nil) %>Contabilidad</label>
               </div>
               <div class="checkbox">
-                <label for="cf5"><input type="checkbox" id="cf5" name="cf5" /> Manufactura</label>
+                <label for="cf5"><%= f.check_box("functional_skills", {:multiple => true}, "Manufactura", nil) %>Manufactura</label>
               </div>
               <div class="checkbox">
-                <label for="cf6"><input type="checkbox" id="cf6" name="cf6" /> Costos</label>
+                <label for="cf6"><%= f.check_box("functional_skills", {:multiple => true}, "Costos", nil) %>Costos</label>
               </div>
             </div>
             <div class="col-lg-6 form-input">
               <div class="checkbox">
-                <label for="cf7"><input type="checkbox" id="cf7" name="cf7" /> Activo fijo</label>
+                <label for="cf7"><%= f.check_box("functional_skills", {:multiple => true}, "Activo fijo", nil) %>Activo fijo</label>
               </div>
               <div class="checkbox">
-                <label for="cf8"><input type="checkbox" id="cf8" name="cf8" /> Indicadores de gestión</label>
+                <label for="cf8"><%= f.check_box("functional_skills", {:multiple => true}, "Indicadores de gestión", nil) %>Indicadores de gestión</label>
               </div>
               <div class="checkbox">
-                <label for="cf9"><input type="checkbox" id="cf9" name="cf9" /> Gestión comercial</label>
+                <label for="cf9"><%= f.check_box("functional_skills", {:multiple => true}, "Gestión comercial", nil) %>Gestión comercial</label>
               </div>
               <div class="checkbox">
-                <label for="cf10"><input type="checkbox" id="cf10" name="cf10" /> Gestión de proyectos</label>
+                <label for="cf10"><%= f.check_box("functional_skills", {:multiple => true}, "Gestión de proyectos", nil) %> Gestión de proyectos</label>
               </div>
               <div class="checkbox">
-                <label for="cf11"><input type="checkbox" id="cf11" name="cf11" /> Costos ABC</label>
+                <label for="cf11"><%= f.check_box("functional_skills", {:multiple => true}, "Costos ABC", nil) %> Costos ABC</label>
               </div>
               <div class="checkbox">
-                <label for="cf12"><input type="checkbox" id="cf12" name="cf7" /> Gestión de contenidos</label>
+                <label for="cf12"><%= f.check_box("functional_skills", {:multiple => true}, "Gestión de contenidos", nil) %> Gestión de contenidos</label>
               </div>
             </div>
           </div>
@@ -266,14 +269,14 @@
           <div class="form-group">
             <div class="col-lg-12 form-input">
               <label>Tecnologías de interés</label>
-              <textarea class="form-control" placeholder="Ejemplo: Visual Basic .Net, C#, HTML5, JAVA, Oracle PL/SQL..." rows="4" id="ti" name="ti"></textarea>
+              <%= f.text_area :interests, rows: 4, class: "form-control", placeholder: "Ejemplo: Visual Basic .Net, C#, HTML5, JAVA, Oracle PL/SQL..." %>
             </div>
           </div>
 
           <div class="col-lg-12 form-input-left">
             <div class="form-group">
               <label>Adjunta tu CV</label>
-              <input type="file" id="cv" name="cv" required="">
+              <%= f.file_field :cv, required: true %>
             </div>
           </div>
 
@@ -283,9 +286,9 @@
       <div class="row join-button">
         <div class="col-lg-12 text-center">
           <div id="success"></div>
-          <button type="submit" class="btn btn-xl btn-primary">Postular</button>
+          <%= f.submit "Postular", class:"btn btn-xl btn-primary" %>
         </div>
       </div>
-    </form>
+    <% end %>
   </div>
 </section>

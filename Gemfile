@@ -27,6 +27,9 @@ gem 'mysql2', '>= 0.3.13', '< 0.5'
 #Great Ruby dubugging companion: pretty print Ruby objects to visualize their structure. Supports custom object formatting via plugins
 gem 'awesome_print', '~> 1.7'
 
+#Easy file attachment management for ActiveRecord
+gem 'paperclip', '~> 5.0.0'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
