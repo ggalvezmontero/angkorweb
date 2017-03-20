@@ -6,10 +6,10 @@
         <hr class="primary">
       </div>
     </div>
-    <%= form_for @member, url: possible_members_path, html: {id: "joinUsForm"} do |f| %>
+    <%= form_for @member, url: possible_members_path, html: {id: "joinUsForm", multipart: true} do |f| %>
       <div class="row">
         <div class="col-md-6">
-
+          <%= f.hidden_field :member_type, value: @type %>
           <div class="form-group">
             <label>Nombres</label>
             <%= f.text_field :first_name, class: "form-control", required: true, data: {"validation-required-message": "Por favor ingresa tu nombre"} %>
@@ -49,31 +49,28 @@
 
           <% if @type == 'students' %>
 
-          <div class ="col-lg-12 form-input">
-            <div class="form-group">
-              <label>Tipo de estudios</label>
-              <select class="form-control" id="tipoEstudio" name="tipoEstudio">
-                <option value="0">Universitario</option>
-                <option value="1">Técnico</option>
-              </select>
+            <div class ="col-lg-12 form-input">
+              <div class="form-group">
+                <label>Tipo de estudios</label>
+                <%= f.select :study_type, [["Universitario", 0], ["Técnico", 1]], {}, class: "form-control"  %>
+              </div>
             </div>
-          </div>
 
-          <div class="col-lg-12 form-input">
-            <div class="form-group">
-              <label>Universidad/Instituto/Escuela</label>
-              <input type="text" class="form-control" id="universidad" name ="universidad" required="">
-              <p class="help-block text-danger"></p>
+            <div class="col-lg-12 form-input">
+              <div class="form-group">
+                <label>Universidad/Instituto/Escuela</label>
+                <%= f.text_field :studies_center, class: "form-control", required: true%>
+                <p class="help-block text-danger"></p>
+              </div>
             </div>
-          </div>
 
-          <div class="col-lg-12 form-input">
-            <div class="form-group">
-              <label>Último ciclo cursado</label>
-              <input type="text" class="form-control" id="ciclo" name ="ciclo" required="">
-              <p class="help-block text-danger"></p>
+            <div class="col-lg-12 form-input">
+              <div class="form-group">
+                <label>Último ciclo cursado</label>
+                <%= f.text_field :last_semester, class: "form-control", required: true %>
+                <p class="help-block text-danger"></p>
+              </div>
             </div>
-          </div>
 
           <% end %>
 
@@ -279,7 +276,7 @@
           <div class="col-lg-12 form-input-left">
             <div class="form-group">
               <label>Adjunta tu CV</label>
-              <input type="file" id="cv" name="cv" required="">
+              <%= f.file_field :cv, required: true %>
             </div>
           </div>
 
@@ -289,7 +286,7 @@
       <div class="row join-button">
         <div class="col-lg-12 text-center">
           <div id="success"></div>
-          <button type="submit" class="btn btn-xl btn-primary">Postular</button>
+          <%= f.submit "Postular", class:"btn btn-xl btn-primary" %>
         </div>
       </div>
     <% end %>

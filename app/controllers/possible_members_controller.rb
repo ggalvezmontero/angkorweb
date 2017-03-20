@@ -16,6 +16,6 @@ class PossibleMembersController < ApplicationController
   private
 
   def members_params
-    params.require(:possible_member).permit(:id, :first_name, :first_surname, :last_surname, :email, :document_type, :document_number, :consultancy_area => [])
+    params.require(:possible_member).permit(:id, :first_name, :first_surname, :last_surname, :email, :member_type, :document_type, :document_number, :study_type, :studies_center, :last_semester, :interests, :cv, :cv_file_name, :consultancy_area => [], :information_technology_area => [], :outsourcing_area => [], :administration_area => [], :technical_skills => [], :functional_skills => [])
   end
 end

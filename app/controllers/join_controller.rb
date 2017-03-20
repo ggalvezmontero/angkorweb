@@ -13,7 +13,7 @@ class JoinController < ApplicationController
 	end
 
 	def students
-		@type = 'students'
+		@type = 'student'
 		@member = PossibleMember.new
 	end
 end
