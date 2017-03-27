@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class ActionCorreoTest < ActionMailer::TestCase
+class PossibleMemberTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end

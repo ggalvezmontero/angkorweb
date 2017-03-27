@@ -1,4 +1,5 @@
 class PossibleMember < ActiveRecord::Base
+  after_create :send_notification
   has_attached_file :cv,
                     :url  => "/assets/possible_members/:id/:style/:basename.:extension",
                     :path => ":rails_root/public/assets/possible_members/:id/:style/:basename.:extension"
@@ -16,5 +17,9 @@ class PossibleMember < ActiveRecord::Base
   scope :senior, -> { where(member_type: "senior") }
   scope :young, -> { where(member_type: "young") }
   scope :student, -> { where(member_type: "student") }
+
+  def send_notification
+    NotificationMailer.join_us(self).deliver_later
+  end
 
 end
