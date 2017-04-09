@@ -4,6 +4,6 @@ class Contact < ActiveRecord::Base
   validates :email, format: {with: /\A([\w\.%\+\-]+)@([\w\-]+\.)+([\w]{2,})\z/i}
 
   def send_contact_email
-    ActionCorreo.contact(self).deliver_later
+    NotificationMailer.contact(self).deliver_later
   end
 end
