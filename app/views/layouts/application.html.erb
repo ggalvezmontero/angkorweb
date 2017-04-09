@@ -26,6 +26,55 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAV5Ea-OXRKIFu46wGaOcZCCS1qD5M1CXA"></script>
 </head>
 <body id="page-top">
+  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top <%= yield :nav_alt%>">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Navegador</span> Menú <i class="fa fa-bars"></i>
+        </button>
+        <a class="navbar-brand" href="/">Angkor Group</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="/acerca">¿Quiénes somos?</a>
+          </li>
+          <li>
+            <a href="/#services">Servicios</a>
+          </li>
+          <li>
+            <a href="/soluciones">Soluciones</a>
+          </li>
+          <li>
+            <a href="/partners">Partners</a>
+          </li>
+          <li>
+            <a href="/contactanos">Contáctanos</a>
+          </li>
+          <li>
+            <a href="/unete">Únete</a>
+          </li>
+          <li>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Acceder <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><h4>Clientes</h4></li>
+              <li><a href="http://www.angkorperu.com/esupport/" target="_blank">E-support</a></li>
+              <li><a href="http://190.117.252.113:8889/" target="_blank">Factura electrónica</a></li>
+              <li><a href="#" target="_blank">ERP en la nube</a></li>
+              <li><a href="#" target="_blank">Control de asistencias</a></li>
+              <li><a href="#" target="_blank">Inteligencia de negocios</a></li>
+              <li role="separator" class="divider"></li>
+              <li><h4>Staff</h4></li>
+              <li><a href="http://www.angkorperu.com/webmail" target="_blank">Correo</a></li>
+              <li><a href="http://192.168.1.27:92" target="_blank">Gestión de tiempos</a></li>
+              <li><a href="#" target="_blank">Autoservicio</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
   <%= yield %>
   <a href="#0" class="cd-top">Top</a>

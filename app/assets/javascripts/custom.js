@@ -71,5 +71,21 @@
     $("#wrapper").toggleClass("active");
   });
 
+  $(document).ready(function () {
+    const url = window.location;
+    let element = $('ul.nav a').filter(function () {
+        return this.href == url.href;
+    });
+    var element_li = element.parent().addClass('active');
+
+    while (true) {
+        if (element_li.is('li')) {
+            element_li = element_li.parent().parent().addClass('active');
+        } else {
+            break;
+        }
+    }
+  })
+
 
 })(jQuery); // End of use strict

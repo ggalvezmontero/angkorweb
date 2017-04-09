@@ -168,11 +168,11 @@ div.accordion-panel {
 // Dropdown
 
 .navbar-default {
-  .nav {
+  .nav.navbar-nav {
     li {
       &.open {
         a:hover, a:focus {
-          background-color: transparentize(black, 0.7);
+          background-color: transparentize(black, 0.7) !important;
           color: white;
         }
       }
@@ -205,7 +205,7 @@ div.accordion-panel {
         li {
           &.open {
             a:hover, a:focus {
-              background-color: white;
+              background-color: white !important;
               color: $theme-primary;
             }
           }
