@@ -1,61 +1,12 @@
-<nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-alt">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Navegador</span> Menú <i class="fa fa-bars"></i>
-      </button>
-      <a class="navbar-brand" href="/">Angkor Group</a>
-    </div>
-
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li>
-          <a href="/#about">¿Quiénes somos?</a>
-        </li>
-        <li>
-          <a href="/#services">Servicios</a>
-        </li>
-        <li class="active">
-          <a href="/#portfolio">Soluciones</a>
-        </li>
-        <li>
-          <a href="/partners">Partners</a>
-        </li>
-        <li>
-          <a href="/contactanos">Contáctanos</a>
-        </li>
-        <li>
-          <a href="/unete">Únete</a>
-        </li>
-        <li>
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Acceder <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><h4>Clientes</h4></li>
-            <li><a href="#">E-support</a></li>
-            <li><a href="http://190.117.252.113:8889/">Factura electrónica</a></li>
-            <li><a href="#">ERP en la nube</a></li>
-            <li><a href="#">Control de asistencias</a></li>
-            <li><a href="#">Inteligencia de negocios</a></li>
-            <li role="separator" class="divider"></li>
-            <li><h4>Staff</h4></li>
-            <li><a href="#">Correo</a></li>
-            <li><a href="#">Gestión de tiempos</a></li>
-            <li><a href="#">Autoservicio</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
+<% content_for :nav_alt do %>
+  navbar-alt
+<% end %>
 <section>
   <div class="container-fluid-about slide-line to-slide invisible">
     <div class="row">
       <div class="col-sm-8">
-        <h2>ERP O7 Solution</h2>
-        <p>Implementado con éxito en múltiples empresas industriales, comerciales, 
-        de servicios y del Sector Público. Incluye manufactura, comercial, logística, 
-        presupuestos, finanzas, contabilidad, recursos humanos, activo fijo y costos.</p>
+        <h2>ERP O7/Solution - Solución integral, configurable y completa</h2>
+        <p>Implementado con éxito en múltiples empresas industriales, comerciales, de servicios y del Sector Público. Incluye Manufactura, Comercial, Logística, Presupuestos, Finanzas, Contabilidad, Recursos humanos, Activo fijo y Costos. Utilizada por empresas medianas en crecimiento y Grupos empresariales líderes en el país. Arquitectura orienta a procesos y servicios que facilitan su rápida implementación y adaptabilidad a las necesidades de cada negocio.</p>
       </div>
       <div class="col-sm-4 text-center vertical-center">
         <img class="img-solution" src="<%= image_url("portfolio/fullsize/o7erp.png")%>">
@@ -68,21 +19,16 @@
         <img class="img-solution" src="<%= image_url("portfolio/fullsize/o7h.png")%>">
       </div>
       <div class="col-sm-8">
-        <h2>O7 H/Solution: Administración de personal y RRHH</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h2>O7 H/Solution - Solución de Recursos Humanos ágil, segura y escalable</h2>
+        <p>Elegido por múltiples corporaciones multinacionales y locales en el país, altamente referida por nuestros clientes, ejecutivos y jefes de las áreas de recursos humanos y compensaciones. Incluye Reclutamiento y Selección, Contratación, Control de asistencias, Remuneraciones y Pagos, Bienestar Social, Diseño Organizacional, Capacitación, Desarrollo y Evaluación, Provisiones, Liquidaciones, AFP, Bancos, SUNAT (Plame, T-Registro y Libros Electrónicos), Portal de autoservicio y Gestión Analítica.</p>
       </div>
     </div>
   </div>
   <div class="container-fluid-about slide-line to-slide invisible">
     <div class="row">
       <div class="col-sm-8">
-        <h2>O7Invoice: Emisión de facturas electrónicas</h2>
-        <p>Solución web, que se integra a sus aplicaciones de facturación y genera los comprobantes electrónicos, comunicando en tiempo real o tiempos configurables dentro de los plazos establecidos a SUNAT y clientes.</p>
+        <h2>O7Invoice - Solución de Facturación Electrónica en la nube y On Premise: inmediata, intuitiva y segura (certificada por SUNAT- PSE)</h2>
+        <p>Solución web instalada en empresas con cobertura a nivel nacional, con alto volumen de facturación y de diversos sectores económicos. Se integra a sus aplicaciones de facturación y genera los comprobantes electrónicos, comunicando en tiempo real o tiempos configurables dentro de los plazos establecidos para la validación con SUNAT y comunicación a sus clientes. Incluye emisión de comprobantes electrónicos a Clientes como: Facturas electrónicas, guías electrónicas, comprobantes de percepción y documentos autorizados electrónicos) y comprobantes de retención electrónicos a sus proveedores.</p>
       </div>
       <div class="col-sm-4 text-center vertical-center">
         <img class="img-solution" src="<%= image_url("portfolio/fullsize/o7invoice.png")%>">
@@ -91,77 +37,23 @@
   </div>
   <div class="container-fluid-about bg-gray slide-line to-slide invisible">
     <div class="row">
-      <div class="col-sm-4 text-center">
-        <span class="glyphicon glyphicon-globe logo"></span> 
-      </div>
-      <div class="col-sm-8">
-        <h2>O7Express: Solución de facturación en la nube y factura electrónica</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-    </div>
-  </div>
-  <div class="container-fluid-about slide-line to-slide invisible">
-    <div class="row">
-      <div class="col-sm-8">
-        <h2>O7CAS: Control de asistencias</h2>
-        <p>Sistema de control de asistencias integrado en línea con dispositivos de marcación y manejo de turnos, horarios, tareas, compensaciones y alertas.</p>
-      </div>
-      <div class="col-sm-4 text-center vertical-center">
-        <span class="glyphicon glyphicon-signal logo"></span>
-      </div>
-    </div>
-  </div>
-  <div class="container-fluid-about bg-gray slide-line to-slide invisible">
-    <div class="row">
-      <div class="col-sm-4 text-center">
-        <span class="glyphicon glyphicon-globe logo"></span> 
-      </div>
-      <div class="col-sm-8">
-        <h2>FastMark: Marcación móvil</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-    </div>
-  </div>
-  <div class="container-fluid-about slide-line to-slide invisible">
-    <div class="row">
-      <div class="col-sm-8">
-        <h2>O7abc: Costeo de actividades</h2>
-        <p>Solución orientada a costear los productos y servicios bajo un modelo basado en actividades.</p>
-      </div>
       <div class="col-sm-4 text-center vertical-center">
         <img class="img-solution" src="<%= image_url("portfolio/fullsize/o7abc.png")%>">
       </div>
-    </div>
-  </div>
-  <div class="container-fluid-about bg-gray slide-line to-slide invisible">
-    <div class="row">
-      <div class="col-sm-4 text-center">
-        <span class="glyphicon glyphicon-globe logo"></span> 
-      </div>
       <div class="col-sm-8">
-        <h2>O7Law: Gestión de Estudios de Abogados</h2>
-        <p>Solución especializada para la Gestión de procesos de estudios de abogados. Incluye el registro y control de tiempos, control de gastos, liquidaciones, facturación, cobranzas e indicadores de gestión.</p>
+        <h2>O7 ABC - Solución de Costeo ABC de Arquitectura Abierta, Flexible y Analítica para establecer modelos de tarifación complejos y determinación de negocios y actividades rentables</h2>
+        <p>Utilizada en empresas del mercado de valores, utilities, servicios, así como conglomerados de múltiples unidades de negocio. Incluye servicios web para integración con otras fuentes de información de presupuestos, contabilidad, proyectos y otros inductores. Manejo de múltiples modelos de costeo como: Recursos, Objetos de Costo, Actividades, Subactividades, Productos, Tarifas y distribución mediante inductores con diferentes niveles de recursividad.</p>
       </div>
     </div>
   </div>
   <div class="container-fluid-about slide-line to-slide invisible">
     <div class="row">
       <div class="col-sm-8">
-        <h2>O7Track: Seguimiento de cobranzas</h2>
-        <p>Portal de seguimiento de cobranzas y manejo de alertas</p>
+        <h2>O7Express - Solución en la Nube para empresas pequeñas y medianas que requieren transformar sus procesos de negocio mediante una plataforma ágil, segura y con altos estándares de cumplimiento</h2>
+        <p>Implementado en empresas que han transformado de manera acelerada sus procesos manuales en electrónicos (facturación, pagos, libros contables, estados financieros) por temas de cumplimiento o por oportunidades de reducción de costos y mejora en la eficiencia de sus operaciones.</p>
       </div>
-      <div class="col-sm-4 text-center vertical-center">
-        <span class="glyphicon glyphicon-signal logo"></span>
+      <div class="col-sm-4 text-center">
+        <span class="glyphicon glyphicon-globe logo"></span> 
       </div>
     </div>
   </div>
@@ -171,79 +63,118 @@
         <span class="glyphicon glyphicon-globe logo"></span> 
       </div>
       <div class="col-sm-8">
-        <h2>O7Advisory: Gestión de tiempos</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-    </div>
-  </div>
-  <div class="container-fluid-about slide-line to-slide invisible">
-    <div class="row">
-      <div class="col-sm-8">
-        <h2>O7Health: Historias clínicas y atención de pacientes</h2>
-        <p>Solución especializada para el manejo de historias clínicas, atenciones médicas, emisión de recetas, stocks de farmacias, facturación y cobranzas.</p>
-      </div>
-      <div class="col-sm-4 text-center vertical-center">
-        <span class="glyphicon glyphicon-signal logo"></span>
-      </div>
-    </div>
-  </div>
-  <div class="container-fluid-about bg-gray slide-line to-slide invisible">
-    <div class="row">
-      <div class="col-sm-4 text-center">
-        <span class="glyphicon glyphicon-globe logo"></span> 
-      </div>
-      <div class="col-sm-8">
-        <h2>O7ATP: Retenciones y percepciones electrónicas</h2>
-        <p>Solución web que permite la generación de comprobantes de retención y percepción electrónica para la comunicación con SUNAT y proveedores.</p>
-      </div>
-    </div>
-  </div>
-  <div class="container-fluid-about slide-line to-slide invisible">
-    <div class="row">
-      <div class="col-sm-8">
-        <h2>O7Read: Recepción de facturas electrónicas</h2>
-        <p>Solución web que permite la lectura y captura de facturas electrónicas de proveedores para su importación en las cuentas por pagar.</p>
-      </div>
-      <div class="col-sm-4 text-center vertical-center">
-        <span class="glyphicon glyphicon-signal logo"></span>
-      </div>
-    </div>
-  </div>
-  <div class="container-fluid-about bg-gray slide-line to-slide invisible">
-    <div class="row">
-      <div class="col-sm-4 text-center">
-        <span class="glyphicon glyphicon-globe logo"></span> 
-      </div>
-      <div class="col-sm-8">
-        <h2>O7PLE: Libros electrónicos</h2>
-        <p>Solución que permite gestionar el repositorio de libros electrónicos PLE a través de interfaces con sus operaciones de ventas, compras, inventarios, comprobantes contables así como la importación de archivos de Excel y mantenimiento de otros libros.</p>
-      </div>
-    </div>
-  </div>
-  <div class="container-fluid-about slide-line to-slide invisible">
-    <div class="row">
-      <div class="col-sm-8">
-        <h2>O7SelfService: Autoservicio</h2>
-        <p>Portal web orientado a los colaboradores y supervisores para el manejo de solicitudes, aprobaciones, programaciones y consulta a información personal e información de los equipos de trabajo por el supervisor.</p>
-      </div>
-      <div class="col-sm-4 text-center vertical-center">
-        <span class="glyphicon glyphicon-signal logo"></span>
-      </div>
-    </div>
-  </div>
-  <div class="container-fluid-about bg-gray slide-line to-slide invisible">
-    <div class="row">
-      <div class="col-sm-4 text-center">
-        <span class="glyphicon glyphicon-globe logo"></span> 
-      </div>
-      <div class="col-sm-8">
-        <h2>O7Analytics: Business intelligence</h2>
+        <h2>O7Analytics – Solución de Gestión Analítica – Business Intelligence: Fiable, Simple y de Alto Rendimiento.</h2>
         <p>Solución de Inteligencia de Negocios que incluye el manejo de tableros de control e indicadores de gestión del negocio y de segmentos específicos.</p>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid-about slide-line to-slide invisible">
+    <div class="row">
+      <div class="col-sm-8">
+        <h2>O7CAS - Control de Accesos y Asistencias del Personal - Seguro, Biométrico y Móvil</h2>
+        <p>Solución implementada en empresas con plantas ubicadas en diferentes puntos del país pertenecientes al sector de manufactura, utilities, minería, retail, universidades entre otros. Permite la integración con equipos biométricos de reconocimiento dactilar, proximidad y facial para asegurar una inmediata captura de huellas en la oficina, en el campo o en actividades móviles que pueda desempeñar un colaborador. Permite la programación de turnos, asignación de colaboradores, control de accesos, control de asistencias, formulación de políticas y configuración de reglas de negocio, procesamiento de asistencias por los supervisores, compensaciones de horas y gestión de papeletas electrónicas pre y post marcación.</p>
+      </div>
+      <div class="col-sm-4 text-center vertical-center">
+        <span class="glyphicon glyphicon-signal logo"></span>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid-about bg-gray slide-line to-slide invisible">
+    <div class="row">
+      <div class="col-sm-4 text-center">
+        <span class="glyphicon glyphicon-globe logo"></span> 
+      </div>
+      <div class="col-sm-8">
+        <h2>O7FastMark - Control de Asistencia móvil para Teletrabajo y Colaboradores en Campo</h2>
+        <p>Solución en la nube que permite mediante reconocimiento facial y GPS la captura correcta, en línea y con la ubicación autorizada para aquellos colaboradores que tienen asignadas actividades fuera del ambiente de trabajo. Utilizada con éxito en empresas del sector financiero, utilities, construcción, supervisores y fuerzas de ventas.</p>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid-about slide-line to-slide invisible">
+    <div class="row">
+      <div class="col-sm-8">
+        <h2>O7SelfService - Portal de Autoservicio del Colaborador</h2>
+        <p>Solución web que permite a los colaboradores de la empresa consultar su información (boletas, certificados, saldos de cuenta corriente, saldos de vacaciones, saldos de compensaciones, marcaciones de asistencia, información personal, crecimiento en la empresa, capacitaciones pendientes, evaluaciones, entre otros) así como gestionar diversas solicitudes (capacitación, vacaciones, permisos, préstamos, cambios de datos personales y de sus familiares, actualizaciones de estudios). Los supervisores pueden visualizar información de su equipo y aprobar solicitudes mediante flujos de trabajo configurables con notificaciones vía correo electrónico.</p>
+      </div>
+      <div class="col-sm-4 text-center vertical-center">
+        <span class="glyphicon glyphicon-signal logo"></span>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid-about bg-gray slide-line to-slide invisible">
+    <div class="row">
+      <div class="col-sm-4 text-center">
+        <span class="glyphicon glyphicon-globe logo"></span> 
+      </div>
+      <div class="col-sm-8">
+        <h2>O7Law - Gestión de Tiempos, Asuntos y Facturación para Estudios de Abogados</h2>
+        <p>Solución en la nube que permite a las firmas legales gestionar asuntos, clientes, conflictos de intereses y tarifas, así como el registro de tiempos de los abogados, liquidaciones de tiempos, liquidaciones de gastos refacturables, generación de facturas, facturas electrónicas, seguimiento a la cobranza y cobros. Incluye dashboards para medir el nivel de leverage, look up, velocidad de facturación y cobranzas, antigüedad, rentabilidad entre otros.</p>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid-about slide-line to-slide invisible">
+    <div class="row">
+      <div class="col-sm-8">
+        <h2>O7Health - Historias Clínicas y Atención De Pacientes</h2>
+        <p>Solución especializada para el manejo de historias clínicas, atenciones médicas, emisión de recetas, atención en farmacias, control de stock y reposiciones, control de servicios de terceros (laboratorios), facturación de punto de venta, cobranzas y gestión de caja. Manejo de sistemas de fidelización y comisión de ventas.</p>
+      </div>
+      <div class="col-sm-4 text-center vertical-center">
+        <span class="glyphicon glyphicon-signal logo"></span>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid-about bg-gray slide-line to-slide invisible">
+    <div class="row">
+      <div class="col-sm-4 text-center">
+        <span class="glyphicon glyphicon-globe logo"></span> 
+      </div>
+      <div class="col-sm-8">
+        <h2>O7Advisory - Gestión del Tiempo de Equipos de Trabajo</h2>
+        <p>Solución en la nube para registrar actividades en diferentes proyectos y/o centros de costo. Compartir actividades en grupos de trabajo y generar estadística de los tiempos incurridos por persona, actividad, centro de costo, unidad de negocio, etc. el resultado de la colección de esta información periódica es el correcto inductor para la distribución del costo de personal por centros de costo y actividades.</p>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid-about slide-line to-slide invisible">
+    <div class="row">
+      <div class="col-sm-8">
+        <h2>O7PLE - Generación de Libros Electrónicos</h2>
+        <p>Solución en la nube que permite importar comprobantes contables de diferentes fuentes de información para consolidar un repositorio de libros electrónicos de acuerdo a la normativa de SUNAT, los cuales pueden ser consultados, actualizados y que permiten generar los archivos planos para la declaración de los catálogos de libros contables mensuales y anuales.</p>
+      </div>
+      <div class="col-sm-4 text-center">
+        <span class="glyphicon glyphicon-globe logo"></span> 
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid-about bg-gray slide-line to-slide invisible">
+    <div class="row">
+      <div class="col-sm-4 text-center vertical-center">
+        <span class="glyphicon glyphicon-signal logo"></span>
+      </div>
+      <div class="col-sm-8">
+        <h2>O7PM - Performance Management - Solución de Evaluación del Desempeño</h2>
+        <p>Solución en la nube que permite evaluar el desempeño y talento potencial de los colaboradores de una organización. Incluye la definición de competencias genéricas, competencias por niveles en la organización, competencias por puestos de trabajo y establecer objetivos por cada uno de los supervisores con sus equipos de trabajo para su posterior seguimiento y evaluación. Permite definir múltiples modelos de evaluación y escalas de valoración con calendarios predefinidos para completar las evaluaciones, tener feedback del colaborador y calibrar los resultados finales por la gerencia. Incluye la generación de la matriz 9Box y dashboards de estadísticas de resultados del proceso de evaluación.</p>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid-about slide-line to-slide invisible">
+    <div class="row">
+      <div class="col-sm-8">
+        <h2>O7RM - Recruitment Management - Solución de Reclutamiento y Selección</h2>
+        <p>Solución en la nube que permite gestionar necesidades de contratación de personal mediante flujos configurables de procesos de reclutamiento y selección. Incluye un portal para la actualización de candidatos y sus hojas de vida, base de datos que se mantiene actualizada, segmentada y con facilidades de búsqueda para una rápida elección de una terna y completar el proceso de evaluación y validación con el área solicitante. Incluye estadísticas de reclutamiento y se integra con procesos de abordaje del colaborador a la organización.</p>
+      </div>
+      <div class="col-sm-4 text-center">
+        <span class="glyphicon glyphicon-globe logo"></span> 
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid-about bg-gray slide-line to-slide invisible">
+    <div class="row">
+      <div class="col-sm-4 text-center vertical-center">
+        <span class="glyphicon glyphicon-signal logo"></span>
+      </div>
+      <div class="col-sm-8">
+        <h2>O7LM - Learn Management - Solución de Capacitación, Desarrollo y Aprendizaje</h2>
+        <p>Solución en la nube que permite recopilar necesidades de capacitación, asociarlas a competencias, preparar mallas curriculares, generar presupuestos y mantener actualizado los programas de aprendizaje. Registrar la ejecución de los cursos, resultados obtenidos y controles mínimos requeridos por curso. Incluye estadísticas de capacitación y se integra con procesos de e-learning.</p>
       </div>
     </div>
   </div>
