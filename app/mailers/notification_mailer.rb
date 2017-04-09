@@ -10,7 +10,7 @@ class NotificationMailer < ApplicationMailer
   def join_us(params)
   	@contact = params
     cv = @contact.cv.url
-    cv = "https://s3.amazonaws.com/dreamstoreme-staging/dreams/main_images/000/000/012/original/banner-01.jpg?1451774055"
+    cv = "https://cuteoverload.files.wordpress.com/2010/03/screen-shot-2010-03-16-at-1-53-00-pm.jpg"
     cv_file = open(cv)
     cv_file_path = cv_file.path
   	attachments['cv.pdf'] = File.read(cv_file_path)
