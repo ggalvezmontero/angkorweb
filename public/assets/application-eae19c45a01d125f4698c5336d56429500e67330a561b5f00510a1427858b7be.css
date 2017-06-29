@@ -17406,7 +17406,7 @@ header .header-content-inner .btn-header {
 header .header-content-inner #phrase {
   font-size: 1em !important;
   margin-bottom: 15px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 @media (min-width: 425px) {
@@ -17610,6 +17610,12 @@ section#contact :-ms-input-placeholder {
   text-transform: uppercase;
   font-weight: 500;
   color: #bbbbbb;
+}
+
+/* line 227, /Users/alexandra/Documents/angkorweb/app/assets/stylesheets/home.scss */
+.stroke {
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 1px black;
 }
 /* line 8, /Users/alexandra/Documents/angkorweb/app/assets/stylesheets/join.scss */
 .join-box {
