@@ -13,7 +13,7 @@
     centerPadding: '30px',
     slidesToShow: 7,
     autoplay: true,
-    autoplaySpeed: 1000,
+    autoplaySpeed: 500,
     responsive: [
       {
         breakpoint: 768,
