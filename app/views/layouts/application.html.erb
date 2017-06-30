@@ -76,6 +76,13 @@
     </div>
   </nav>
 
+  <% if flash[:error].present? %>
+    <p id='flash-error' class='hidden'><%= flash[:error] %></p>
+  <% end %>
+  <% if flash[:notice].present? %>
+    <p id='flash-notice' class='hidden'><%= flash[:notice] %></p>
+  <% end %>
+
   <%= yield %>
   <a href="#0" class="cd-top">Top</a>
 

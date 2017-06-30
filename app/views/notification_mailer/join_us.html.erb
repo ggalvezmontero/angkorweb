@@ -5,11 +5,70 @@
   </head>
   <body>
     <p>
-      <%= @contact.first_name %>.<br/>
+      <b>Nombre:</b> <%= @contact.first_name %> <%= @contact.first_surname %> <%= @contact.last_surname %>.
     </p>
     <p>
-      <small>
-      </small>
+      <b>Tipo:</b> <%= @contact.member_type_description %>
     </p>
+    <p>
+      <b><%= @contact.document_type_description %>:</b> <%= @contact.document_number %>
+    </p>
+
+    <% if @contact.member_type == 'student' %>
+      <p>
+        <b>Tipo de estudios:</b> <%= @contact.study_type_description %>
+      </p>
+      <p>
+        <b>Universidad/Instituto/Escuela:</b> <%= @contact.studies_center %>
+      </p>
+      <p>
+        <b>Último ciclo cursado:</b> <%= @contact.last_semester %>
+      </p>
+    <% end %>
+
+    <hr>
+
+    <p style='font-size: 16px; font-weight: 800; color: #405ff0;'><b>Áreas de interés</b></p>
+    <p><b>Consultoría</b></p>
+    <ul>
+      <% @contact.consultancy_area.each do |t| %>
+        <li><%= t %></li>
+      <% end %>
+    </ul>
+    <p><b>Tecnologías de la Información</b></p>
+    <ul>
+      <% @contact.information_technology_area.each do |t| %>
+        <li><%= t %></li>
+      <% end %>
+    </ul>
+    <p><b>Outsourcing</b></p>
+    <ul>
+      <% @contact.outsourcing_area.each do |t| %>
+        <li><%= t %></li>
+      <% end %>
+    </ul>
+    <p><b>Administración</b></p>
+    <ul>
+      <% @contact.administration_area.each do |t| %>
+        <li><%= t %></li>
+      <% end %>
+    </ul>
+
+    <p style='font-size: 16px; font-weight: 800; color: #405ff0;'><b>Competencias técnicas de interés</b></p>
+    <ul>
+      <% @contact.technical_skills.each do |t| %>
+        <li><%= t %></li>
+      <% end %>
+    </ul>
+
+    <p style='font-size: 16px; font-weight: 800; color: #405ff0;'><b>Competencias funcionales</b></p>
+    <ul>
+      <% @contact.functional_skills.each do |t| %>
+        <li><%= t %></li>
+      <% end %>
+    </ul>
+
+    <p style='font-size: 16px; font-weight: 800; color: #405ff0;'><b>Tecnologías de interés</b></p>
+    <p><%= @contact.interests %></p>
   </body>
 </html>

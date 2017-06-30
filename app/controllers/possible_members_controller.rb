@@ -9,7 +9,8 @@ class PossibleMembersController < ApplicationController
     @member = PossibleMember.new(members_params)
     if @member
       @member.save
-      redirect_to root_path
+      flash[:notice] = "Gracias por tu tiempo."
+      redirect_to :back
     end
   end
 
