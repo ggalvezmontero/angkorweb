@@ -9,7 +9,7 @@
 
 #carouselHeader {
   .item {
-    height: 50vh;
+    height: 55vh;
     img {
       position: relative;
       width: 100%;
@@ -25,19 +25,19 @@ header {
 
   .header-content-inner {
     hr {
-      margin: 15px auto;
+      margin: 10px auto;
     }
     h1 {
-      font-size: 25px;
+      font-size: 32px;
     }
     .btn-header {
       padding: 5px 30px;
     }
 
     #phrase {
-      font-size: 1em !important;
+      font-size: 1.2em !important;
       margin-bottom: 15px;
-      font-weight: 600;
+      font-weight: 800;
     }
   }
 }
@@ -51,6 +51,9 @@ header {
     min-height: 75%;
 
     .header-content-inner {
+      hr {
+        margin: 15px auto;
+      }
       #phrase {
         font-size: 1.5em !important;
       }
@@ -89,9 +92,6 @@ header {
 @media (max-height: 425px) {
   header {
     .header-content-inner {
-      h1 {
-        font-size: 25px;
-      }
       hr {
         margin: 15px auto;
       }
