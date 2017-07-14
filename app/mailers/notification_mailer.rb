@@ -1,6 +1,6 @@
 class NotificationMailer < ApplicationMailer
   require 'open-uri'
-  default to: 'aespichan@angkorperu.com'
+  default to: 'consulting@angkorperu.com'
 
   def contact(params)
     @contact = params
