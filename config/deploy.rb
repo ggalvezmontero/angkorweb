@@ -1,5 +1,5 @@
 # Change these
-server '52.14.129.49', port: 3000, roles: [:web, :app, :db], primary: true
+server '52.14.129.49', port: 22, roles: [:web, :app, :db], primary: true
 
 set :repo_url,        'git@github.com:aeslinares/angkorweb.git'
 set :application,     'angkorweb'
