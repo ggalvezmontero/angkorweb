@@ -39,7 +39,7 @@ gem 'paperclip', '~> 5.0.0'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-gem 'figaro'
+#gem 'figaro'
 gem 'puma'
 
 group :development, :test do
