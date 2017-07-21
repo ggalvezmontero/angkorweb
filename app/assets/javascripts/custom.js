@@ -73,7 +73,7 @@
 
   $(document).ready(function () {
     const url = window.location;
-    let element = $('ul.nav a').filter(function () {
+    var element = $('ul.nav a').filter(function () {
         return this.href == url.href;
     });
     var element_li = element.parent().addClass('active');
