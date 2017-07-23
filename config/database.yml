@@ -50,5 +50,5 @@ test:
 production:
   <<: *default
   database: angkorweb_production
-  #username: angkorweb
-  #password: <%= ENV['ANGKORWEB_DATABASE_PASSWORD'] %>
+  username: root
+  password: <%= ENV['ANGKORWEB_DATABASE_PASSWORD'] %>
