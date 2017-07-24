@@ -1,5 +1,5 @@
 # Change these
-server 'ec2-52-14-129-49.us-east-2.compute.amazonaws.com', port: 22, roles: [:web, :app, :db], primary: true
+server '192.168.1.127', port: 22, roles: [:web, :app, :db], primary: true
 
 set :repo_url,        'git@github.com:aeslinares/angkorweb.git'
 set :application,     'angkorweb'
