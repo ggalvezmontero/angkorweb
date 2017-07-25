@@ -233,9 +233,13 @@ section#contact {
   content: "";
   display: block;
   background: image-url('media/about/angkor.png') no-repeat;
-  width: 26px;
-  height: 24px;
+  width: 28px;
+  height: 29px;
   float: left;
   object-fit: contain;
   margin-right:5px;
+}
+
+.no-padding-bottom {
+  padding-bottom: 0px !important;
 }
