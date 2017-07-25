@@ -51,4 +51,4 @@ production:
   <<: *default
   database: angkorweb_production
   username: root
-  password: <%= ENV["ANGKORWEB_DATABASE_PASSWORD"] %>
+  #password: <%= ENV["ANGKORWEB_DATABASE_PASSWORD"] %>
