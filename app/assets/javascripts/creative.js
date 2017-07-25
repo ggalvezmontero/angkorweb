@@ -19,7 +19,8 @@
 
 	    // Closes the Responsive Menu on Menu Item Click
 	    $('.navbar-collapse ul li a').click(function() {
-	        $('.navbar-toggle:visible').click();
+	    	if(!($(this).attr("no-collapse") == "true"))
+        		$('.navbar-toggle:visible').click();
 	    });
 
 	    // Offset for Main Navigation
