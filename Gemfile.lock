@@ -200,13 +200,13 @@ DEPENDENCIES
   capistrano-rvm
   capistrano3-puma
   coffee-rails (~> 4.1.0)
-  figaro
+  figaro (~> 1.1.1)
   font-awesome-sass (~> 4.7.0)
   jbuilder (~> 2.0)
   jquery-rails
   mysql2 (>= 0.3.13, < 0.5)
   paperclip (~> 5.0.0)
-  puma
+  puma (~> 3.9.1)
   rails (= 4.2.7.1)
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
