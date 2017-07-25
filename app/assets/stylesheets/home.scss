@@ -228,3 +228,14 @@ section#contact {
   -webkit-text-fill-color: white;
   -webkit-text-stroke: 1px black;
 }
+
+.main-logo:before{
+  content: "";
+  display: block;
+  background: image-url('media/about/angkor.png') no-repeat;
+  width: 26px;
+  height: 24px;
+  float: left;
+  object-fit: contain;
+  margin-right:5px;
+}
