@@ -11,7 +11,7 @@ jQuery(document).ready(function($) {
 
         var offset = 700;
 
-        if (element_position-offset < window_position && element_position+offset > window_position) {
+        if (element_position-offset < window_position && element_position + offset > window_position) {
           element.removeClass('to-slide invisible');
 
           if (index % 2 == 0){

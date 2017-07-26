@@ -71,19 +71,25 @@
     $("#wrapper").toggleClass("active");
   });
 
+  $("#btnAccess").click(function(e) {
+    var height = $("#accessMenu").height();
+    //console.log(height);
+    //$("#accessMenu").scrollTop(height);
+  });
+
   $(document).ready(function () {
     const url = window.location;
     var element = $('ul.nav a').filter(function () {
-        return this.href == url.href;
+      return this.href == url.href;
     });
     var element_li = element.parent().addClass('active');
 
     while (true) {
-        if (element_li.is('li')) {
-            element_li = element_li.parent().parent().addClass('active');
-        } else {
-            break;
-        }
+      if (element_li.is('li')) {
+        element_li = element_li.parent().parent().addClass('active');
+      } else {
+        break;
+      }
     }
   })
 
