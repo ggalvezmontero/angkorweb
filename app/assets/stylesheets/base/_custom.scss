@@ -103,16 +103,6 @@ footer {
   visibility:hidden;
 }
 
-.form-input-left {
-  padding-left: 0px; 
-  padding-right: 5px;
-}
-
-.form-input-right {
-  padding-left: 5px; 
-  padding-right: 0px;
-}
-
 .no-margin-bottom {
   margin-bottom: 0px !important;
 }
@@ -286,5 +276,35 @@ div.accordion-panel {
         color: $theme-primary !important;
       }
     }
+  }
+}
+
+// Form contact us
+
+.form-contact {
+  margin-top: 20px;
+}
+
+.form-input-left {
+  padding-right: none;
+}
+
+.form-input-right {
+  padding-left: none;
+}
+
+@media (min-width: 992px) {
+  .form-contact {
+    margin-top: 0px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .form-input-left {
+    padding-right: 5px;
+  }
+
+  .form-input-right {
+    padding-left: 5px;
   }
 }
