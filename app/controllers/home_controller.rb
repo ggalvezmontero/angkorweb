@@ -20,4 +20,8 @@ class HomeController < ApplicationController
 	def esupport
 		redirect_to "http://esupport.angkorperu.com/"
 	end
+
+	def webmail
+		redirect_to "https://gator2013.hostgator.com:2096/"
+	end
 end

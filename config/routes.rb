@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   get 'contactanos' => 'home#contact'
   get 'soluciones' => 'home#solutions'
   get 'esupport' => 'home#esupport'
-
+  get 'webmail' => 'home#webmail'
   get 'unete' => 'join#index'
   get 'unete/profesionales-con-experiencia' => 'join#senior'
   get 'unete/profesionales-jovenes' => 'join#young'
