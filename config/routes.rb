@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   get 'partners' => 'home#partners'
   get 'contactanos' => 'home#contact'
   get 'soluciones' => 'home#solutions'
+  get 'esupport' => 'home#esupport'
 
   get 'unete' => 'join#index'
   get 'unete/profesionales-con-experiencia' => 'join#senior'
@@ -12,6 +13,5 @@ Rails.application.routes.draw do
 
   resources :contacts, only: [:new, :create]
   resources :possible_members, only: [:new, :create]
-  #resources :logosmailclientes
   get 'logosmailclientes/:file_name' => 'logosmailclientes#show', :constraints => {:file_name =>/[^\/]+/}
 end

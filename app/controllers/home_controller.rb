@@ -17,4 +17,7 @@ class HomeController < ApplicationController
 	def solutions
 	end
 
+	def esupport
+		redirect_to "http://esupport.angkorperu.com/"
+	end
 end
