@@ -47,7 +47,7 @@ Rails.application.configure do
     port:                 587,
     domain:               'sendgrid.net',
     user_name:            'gianfrancogalvezm',
-    password:             'FA$tWa9k',
+    password:             'F9$tWa9k',
     authentication:       'plain',
     enable_starttls_auto: true  
   }

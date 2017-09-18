@@ -78,4 +78,16 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   config.serve_static_files = ENV['RAILS_SERVE_STATIC_FILES'].present?
+  
+  # Smtp email
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+    address:              'smtp.sendgrid.net',
+    port:                 587,
+    domain:               'sendgrid.net',
+    user_name:            'gianfrancogalvezm',
+    password:             'F9$tWa9k',
+    authentication:       'plain',
+    enable_starttls_auto: true  
+  }
 end
