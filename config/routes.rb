@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   get 'esupport' => 'home#esupport'
   get 'webmail' => 'home#webmail'
   get 'unete' => 'join#index'
-  get '/o7invoice/:cliente' => 'o7invoice#show', :constraints => {:cliente =>/[^\/]+/}
+  ##get '/o7invoice/:cliente' => 'o7invoice#show', :constraints => {:cliente =>/[^\/]+/}
   get 'unete/profesionales-con-experiencia' => 'join#senior'
   get 'unete/profesionales-jovenes' => 'join#young'
   get 'unete/practicantes' => 'join#students'
