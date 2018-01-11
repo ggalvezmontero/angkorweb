@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'o7invoice/pecave'
+
+  get 'welcome/index'
+
   root 'home#index'
   get 'acerca' => 'home#about'
   get 'partners' => 'home#partners'
@@ -7,7 +11,6 @@ Rails.application.routes.draw do
   get 'esupport' => 'home#esupport'
   get 'webmail' => 'home#webmail'
   get 'unete' => 'join#index'
-  ##get '/o7invoice/:cliente' => 'o7invoice#show', :constraints => {:cliente =>/[^\/]+/}
   get 'unete/profesionales-con-experiencia' => 'join#senior'
   get 'unete/profesionales-jovenes' => 'join#young'
   get 'unete/practicantes' => 'join#students'
@@ -15,4 +18,5 @@ Rails.application.routes.draw do
   resources :contacts, only: [:new, :create]
   resources :possible_members, only: [:new, :create]
   get 'logosmailclientes/:file_name' => 'logosmailclientes#show', :constraints => {:file_name =>/[^\/]+/}
+  get 'pecave' => 'o7invoice#pecave'
 end
