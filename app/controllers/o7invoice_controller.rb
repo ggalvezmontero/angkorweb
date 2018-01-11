@@ -1,5 +1,5 @@
 class O7invoiceController < ApplicationController
   def pecave
-  	redirect_to "http://www.rubyonrails.org"
+  	redirect_to "http://181.65.247.205/PECAVE"
   end
 end
