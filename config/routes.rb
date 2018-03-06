@@ -19,4 +19,5 @@ Rails.application.routes.draw do
   resources :possible_members, only: [:new, :create]
   get 'logosmailclientes/:file_name' => 'logosmailclientes#show', :constraints => {:file_name =>/[^\/]+/}
   get 'pecave' => 'o7invoice#pecave'
+  get 'lopezingenieros' => 'o7invoice#lopezingenieros'
 end
