@@ -5,8 +5,8 @@ class O7invoiceController < ApplicationController
   def lopezingenieros
   	redirect_to "http://181.65.247.205/LOPEZING"
   end
-  def lopezingenieros
-  	redirect_to "http://181.65.247.205/LOPEZING"
+  def lavanderiafashion
+  	redirect_to "http://181.65.247.205/LFASHION"
   end
 
 end
