@@ -22,4 +22,5 @@ Rails.application.routes.draw do
   get 'lopezingenieros' => 'o7invoice#lopezingenieros'
   get 'lavanderiafashion' => 'o7invoice#lavanderiafashion'
   get 'EXTERRAN' => 'o7invoice#exterran'
+  get 'exterran' => 'o7invoice#exterran'
 end
