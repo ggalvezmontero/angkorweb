@@ -8,5 +8,10 @@ class O7invoiceController < ApplicationController
   def lavanderiafashion
   	redirect_to "http://181.65.247.205/LFASHION"
   end
+  def exterran
+  	redirect_to "http://181.65.247.205/EXTERRAN"
+  end
+
+  
 
 end
