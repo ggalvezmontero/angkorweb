@@ -11,6 +11,12 @@ class O7invoiceController < ApplicationController
   def exterran
   	redirect_to "http://181.65.247.205/EXTERRAN"
   end
+  def jatun
+  	redirect_to "http://181.65.247.205/JATUN"
+  end
+  def clinical
+  	redirect_to "http://181.65.247.205/CLINICAL"
+  end
 
   
 
