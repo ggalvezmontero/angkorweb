@@ -1,7 +1,7 @@
 # Change these
 server '192.168.1.30', port: 22, roles: [:web, :app, :db], primary: true
 
-set :repo_url,        'git@github.com:aeslinares/angkorweb.git'
+set :repo_url,        'https://github.com/ggalvezmontero/angkorweb.git'
 set :application,     'angkorweb'
 set :user,            'deploy'
 set :puma_threads,    [4, 16]

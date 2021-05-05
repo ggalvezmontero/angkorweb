@@ -1,0 +1,420 @@
+./log/capistrano.log:  INFO [530b2269] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [530b2269] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [b8191188] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [b8191188] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [53073bfb] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [53073bfb] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [4113cda2] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [4113cda2] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log: DEBUG [8a96f8e1] 	From github.com:aeslinares/angkorweb
+./log/capistrano.log:  INFO [0a3ac4be] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [0a3ac4be] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [99d88b6a] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [99d88b6a] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log: DEBUG [577fd47e] 	From github.com:aeslinares/angkorweb
+./log/capistrano.log:  INFO [cc09e3e6] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [cc09e3e6] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [33c2b295] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [33c2b295] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log: DEBUG [045102b9] 	From github.com:aeslinares/angkorweb
+./log/capistrano.log:  INFO [7096356f] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [7096356f] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [ba75bb8e] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [ba75bb8e] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [db8d384e] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [db8d384e] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [dd111577] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [dd111577] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log: DEBUG [da050f65] 	From github.com:aeslinares/angkorweb
+./log/capistrano.log:  INFO [34763bd8] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [34763bd8] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [5d0fb463] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [5d0fb463] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [1cd9c365] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [1cd9c365] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [9c8b93b5] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [9c8b93b5] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [b1748a61] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [b1748a61] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [8dfc853b] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [8dfc853b] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [e629c8c0] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [e629c8c0] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [8b0df0cd] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [8b0df0cd] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log: DEBUG [b6300118] 	From github.com:aeslinares/angkorweb
+./log/capistrano.log:  INFO [1cdacbd4] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [1cdacbd4] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [902f0257] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [902f0257] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [cc84d560] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [cc84d560] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [3d23e384] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [3d23e384] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log: DEBUG [f3bc8941] 	From github.com:aeslinares/angkorweb
+./log/capistrano.log:  INFO [5722c42a] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [5722c42a] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [9a86f841] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [9a86f841] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [6b66917f] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [6b66917f] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [ecbb392b] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [ecbb392b] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log: DEBUG [27140d9d] 	From github.com:aeslinares/angkorweb
+./log/capistrano.log:  INFO [41f9dad0] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [41f9dad0] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [30398861] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [30398861] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [ee729853] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [ee729853] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [9a2db5f4] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [9a2db5f4] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log: DEBUG [bd8b77d2] 	From github.com:aeslinares/angkorweb
+./log/capistrano.log:  INFO [44609beb] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [44609beb] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [391ebea7] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [391ebea7] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [5216c4b4] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [5216c4b4] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [73e78da7] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [73e78da7] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [062ad381] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [062ad381] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [58bee6a6] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [58bee6a6] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log: DEBUG [38d784e8] 	From github.com:aeslinares/angkorweb
+./log/capistrano.log:  INFO [43955b93] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [43955b93] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [bfd27b40] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [bfd27b40] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [bf15b347] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [bf15b347] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [3f339d4f] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [3f339d4f] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log: DEBUG [6a506a64] 	From github.com:aeslinares/angkorweb
+./log/capistrano.log:  INFO [68733694] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [68733694] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [79a07b5f] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [79a07b5f] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [05585901] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [05585901] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [8aff9031] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [8aff9031] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [0ff78e10] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [0ff78e10] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [9822312b] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [9822312b] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log: DEBUG [2a514d74] 	From github.com:aeslinares/angkorweb
+./log/capistrano.log:  INFO [5efc605d] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [5efc605d] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [fe423ef6] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [fe423ef6] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [cef0350c] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [cef0350c] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [27c7ea75] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [27c7ea75] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log: DEBUG [b69c695a] 	From github.com:aeslinares/angkorweb
+./log/capistrano.log:  INFO [38a182f5] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [38a182f5] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [b2267c6a] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [b2267c6a] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [2e74bf9c] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [2e74bf9c] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [159e4dec] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [159e4dec] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [ee0eb258] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [ee0eb258] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [e4f0c084] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [e4f0c084] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log: DEBUG [c68cf191] 	From github.com:aeslinares/angkorweb
+./log/capistrano.log:  INFO [17d5f4b2] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [17d5f4b2] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [9ecc1f70] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [9ecc1f70] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [d9fb3626] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [d9fb3626] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [afe90e32] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [afe90e32] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log: DEBUG [8f7f186b] 	From github.com:aeslinares/angkorweb
+./log/capistrano.log:  INFO [9a4ed5bf] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [9a4ed5bf] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [01daff73] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [01daff73] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [3ae337b0] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [3ae337b0] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [8dfe2a70] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [8dfe2a70] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log: DEBUG [89991e48] 	From github.com:aeslinares/angkorweb
+./log/capistrano.log:  INFO [b81f7717] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [b81f7717] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [cd36377b] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [cd36377b] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log: DEBUG [90d48346] 	From github.com:aeslinares/angkorweb
+./log/capistrano.log:  INFO [be54b5c8] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [be54b5c8] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [3ff5af77] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [3ff5af77] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log: DEBUG [f144289f] 	From github.com:aeslinares/angkorweb
+./log/capistrano.log:  INFO [427cee9e] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [427cee9e] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [dc805550] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [dc805550] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [2cb032e5] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [2cb032e5] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [9eac6738] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [9eac6738] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [8dffa05a] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [8dffa05a] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [eac1dbbe] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [eac1dbbe] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log: DEBUG [c8164154] 	From github.com:aeslinares/angkorweb
+./log/capistrano.log:  INFO [cb5d8b88] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [cb5d8b88] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [e93e9b34] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [e93e9b34] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log: DEBUG [f4a6184b] 	From github.com:aeslinares/angkorweb
+./log/capistrano.log:  INFO [d9dec1bb] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [d9dec1bb] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [94ca98b8] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [94ca98b8] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [9b93e987] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [9b93e987] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [8edcf58b] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [8edcf58b] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-alexandra.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log: DEBUG [34175a7f] 	From github.com:aeslinares/angkorweb
+./log/capistrano.log:  INFO [eb961575] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [eb961575] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [326d9499] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [326d9499] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [43eee18b] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [43eee18b] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [8338b450] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [8338b450] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [d4103ead] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [d4103ead] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [f7d08a07] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [f7d08a07] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [d739b453] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [d739b453] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [2e3965e7] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [2e3965e7] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [957b4c22] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [957b4c22] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [4c5aa540] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [4c5aa540] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [2e8e5815] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [2e8e5815] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [4324c8f2] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [4324c8f2] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [834c3cec] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [834c3cec] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [25532a2b] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [25532a2b] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [7650d57a] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [7650d57a] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [ba1836e7] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [ba1836e7] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [1c2fee67] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [1c2fee67] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [13029458] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [13029458] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [969d73c5] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [969d73c5] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [8069bb19] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [8069bb19] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [a1275199] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [a1275199] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [11076320] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [11076320] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [38919cde] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [38919cde] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [747e4273] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [747e4273] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [8cd8d08c] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [8cd8d08c] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [0e7c9916] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [0e7c9916] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [be413676] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [be413676] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [6b0660b9] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [6b0660b9] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [ff41c77d] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [ff41c77d] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [6b9a948e] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [6b9a948e] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log: DEBUG [64f1dfc6] 	From github.com:aeslinares/angkorweb
+./log/capistrano.log:  INFO [1351b650] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [1351b650] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [584eb8b4] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [584eb8b4] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [ef7be3a6] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [ef7be3a6] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [fc1e5bcb] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [fc1e5bcb] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [0880c5c1] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [0880c5c1] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [a1e7fbe5] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [a1e7fbe5] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [f3245f55] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [f3245f55] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [3513a4dc] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [3513a4dc] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [ce935efa] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [ce935efa] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [d8692416] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [d8692416] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [65b98d1c] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [65b98d1c] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [441bb52a] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [441bb52a] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [cb692e74] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [cb692e74] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [1595e90c] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [1595e90c] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [dd83a935] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [dd83a935] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [99e2ff35] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [99e2ff35] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [30edee42] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [30edee42] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [06fc95d7] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [06fc95d7] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [e9792cae] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [e9792cae] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [03c9d4ea] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [03c9d4ea] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [3514afd0] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [3514afd0] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [00dc95e5] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [00dc95e5] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [de8d6df5] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [de8d6df5] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [0d4619c0] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [0d4619c0] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [a75455ed] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [a75455ed] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [7367bbf6] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [7367bbf6] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [dd492fd8] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [dd492fd8] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [7b9a25b4] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [7b9a25b4] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [3ca63dc8] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [3ca63dc8] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [a71a1a37] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [a71a1a37] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [128421a3] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [128421a3] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [7f9ef79d] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [7f9ef79d] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [84213851] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [84213851] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [62bc7856] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [62bc7856] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [1f620895] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [1f620895] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [f200cc74] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [f200cc74] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [85756aa9] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [85756aa9] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [8f4555f9] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [8f4555f9] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [8fcd3825] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [8fcd3825] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [f5b589cc] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [f5b589cc] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [50a5466f] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [50a5466f] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [c929d8b3] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [c929d8b3] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [26c216eb] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [26c216eb] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [b6b08b90] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [b6b08b90] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [55e5258e] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [55e5258e] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [79e532ad] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [79e532ad] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [26c364e1] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [26c364e1] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [fb575f8b] Running /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git on 192.168.1.30
+./log/capistrano.log: DEBUG [fb575f8b] Command: cd /home/deploy/apps/angkorweb/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git remote set-url origin git@github.com:aeslinares/angkorweb.git )
+./log/capistrano.log:  INFO [009d8d8e] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [009d8d8e] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [2dad4421] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [2dad4421] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [d9fb6259] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [d9fb6259] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [836638d4] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [836638d4] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [8ce592f3] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [8ce592f3] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./log/capistrano.log:  INFO [e972d757] Running /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD on 192.168.1.30
+./log/capistrano.log: DEBUG [e972d757] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-angkorweb-production-adminitrator.sh" ; /usr/bin/env git ls-remote git@github.com:aeslinares/angkorweb.git HEAD )
+./.git/logs/refs/remotes/origin/master:48e4cea6ff1e937bcc2955870efb8391528eaa9c 01c700f547d95bd077f5258b55c05746119973fb Alexandra <aeslinares@gmail.com> 1505704530 -0500	update by push
+./.git/logs/refs/remotes/origin/master:01c700f547d95bd077f5258b55c05746119973fb 9d394d5248ef6af9ef4ea2266266f5b2494a87a3 Alexandra <aeslinares@gmail.com> 1505704744 -0500	update by push
+./.git/logs/refs/remotes/origin/master:9d394d5248ef6af9ef4ea2266266f5b2494a87a3 a8a147fa5a08c6089f72b5f07d79392bc7542271 Alexandra <aeslinares@gmail.com> 1505705169 -0500	update by push
+./.git/logs/refs/remotes/origin/master:a8a147fa5a08c6089f72b5f07d79392bc7542271 0bb2b0ae1b898183ee84c3c35824cf0b054380c2 Alexandra <aeslinares@gmail.com> 1505706280 -0500	update by push
+./.git/logs/refs/remotes/origin/master:0bb2b0ae1b898183ee84c3c35824cf0b054380c2 205eb8d64f0f9ea11d4d48e93a39d26159b8f927 Alexandra <aeslinares@gmail.com> 1505778784 -0500	update by push
+./.git/logs/refs/remotes/origin/master:205eb8d64f0f9ea11d4d48e93a39d26159b8f927 c5f96f9763fafe52219f46d62359c156e73b7f2d Alexandra <aeslinares@gmail.com> 1505877486 -0500	update by push
+./.git/logs/refs/remotes/origin/master:c5f96f9763fafe52219f46d62359c156e73b7f2d cd7248cdec9e765a8689ce0c24fd7d56cff61b72 Alexandra <aeslinares@gmail.com> 1505888703 -0500	update by push
+./.git/logs/refs/remotes/origin/master:cd7248cdec9e765a8689ce0c24fd7d56cff61b72 59e4624d8f6fab59865e974668aaec830053172c Alexandra <aeslinares@gmail.com> 1507717750 -0500	update by push
+./.git/logs/refs/remotes/origin/master:59e4624d8f6fab59865e974668aaec830053172c 267eaa0e76740aaf9f0bd08128965561e646983a Alexandra <aeslinares@gmail.com> 1515182870 -0500	update by push
+./.git/logs/refs/remotes/origin/master:267eaa0e76740aaf9f0bd08128965561e646983a f5f884324d7e5f8e6a53708d30c97ce751dd2d46 Alexandra <aeslinares@gmail.com> 1515705553 -0500	update by push
+./.git/logs/refs/remotes/origin/master:f5f884324d7e5f8e6a53708d30c97ce751dd2d46 ae64800beb57979e591cd5870fda842c5d03b599 Alexandra <aeslinares@gmail.com> 1515705600 -0500	update by push
+./.git/logs/refs/remotes/origin/master:ae64800beb57979e591cd5870fda842c5d03b599 9ac5fb46399127cfcc31bb190cf3b334345ea436 Alexandra <aeslinares@gmail.com> 1515706276 -0500	update by push
+./.git/logs/refs/remotes/origin/master:9ac5fb46399127cfcc31bb190cf3b334345ea436 ca2a5377d321cb00408fbbe69a69c7a5b50746e8 Alexandra <aeslinares@gmail.com> 1515706727 -0500	update by push
+./.git/logs/refs/remotes/origin/master:ca2a5377d321cb00408fbbe69a69c7a5b50746e8 9e9531bb235fc8d48903221369900df8921193c1 Alexandra <aeslinares@gmail.com> 1515708527 -0500	update by push
+./.git/logs/refs/remotes/origin/master:9e9531bb235fc8d48903221369900df8921193c1 85ec8cb3cfc182348e03084ffaeca671c5eb362b Alexandra <aeslinares@gmail.com> 1515709066 -0500	update by push
+./.git/logs/refs/remotes/origin/master:85ec8cb3cfc182348e03084ffaeca671c5eb362b b0b08517daf2e3812965ebf3b135de9d8575990e Alexandra <aeslinares@gmail.com> 1520368503 -0500	update by push
+./.git/logs/refs/remotes/origin/master:b0b08517daf2e3812965ebf3b135de9d8575990e ba6dc09597beba9f92db00a694affae2398b494c Alexandra <aeslinares@gmail.com> 1521070495 -0500	update by push
+./.git/logs/refs/remotes/origin/master:ba6dc09597beba9f92db00a694affae2398b494c 72b3e61d64a9a9a2ad8df1b9fded334bb961f53a Alexandra <aeslinares@gmail.com> 1521071160 -0500	update by push
+./.git/logs/refs/remotes/origin/master:72b3e61d64a9a9a2ad8df1b9fded334bb961f53a 707bc04cc17fb76d2a825c88167a190b82ce2c51 Alexandra <aeslinares@gmail.com> 1525309827 -0500	update by push
+./.git/logs/refs/remotes/origin/master:707bc04cc17fb76d2a825c88167a190b82ce2c51 0916154f1ee49eb8fd703ad44d325201b61c27d2 Alexandra <aeslinares@gmail.com> 1525310061 -0500	update by push
+./.git/logs/refs/remotes/origin/master:0916154f1ee49eb8fd703ad44d325201b61c27d2 0f3bbe1b6dcc0cadd2fbcca5947f51a8734f5146 Alexandra <aeslinares@gmail.com> 1525391789 -0500	update by push
+./.git/logs/refs/remotes/origin/HEAD:0000000000000000000000000000000000000000 48e4cea6ff1e937bcc2955870efb8391528eaa9c Alexandra <aeslinares@gmail.com> 1505691210 -0500	clone: from https://github.com/ggalvezmontero/angkorweb.git
+./.git/logs/refs/heads/master:0000000000000000000000000000000000000000 48e4cea6ff1e937bcc2955870efb8391528eaa9c Alexandra <aeslinares@gmail.com> 1505691210 -0500	clone: from https://github.com/ggalvezmontero/angkorweb.git
+./.git/logs/refs/heads/master:48e4cea6ff1e937bcc2955870efb8391528eaa9c 01c700f547d95bd077f5258b55c05746119973fb Alexandra <aeslinares@gmail.com> 1505704519 -0500	commit: change ruby version
+./.git/logs/refs/heads/master:01c700f547d95bd077f5258b55c05746119973fb 9d394d5248ef6af9ef4ea2266266f5b2494a87a3 Alexandra <aeslinares@gmail.com> 1505704738 -0500	commit: change ruby version
+./.git/logs/refs/heads/master:9d394d5248ef6af9ef4ea2266266f5b2494a87a3 a8a147fa5a08c6089f72b5f07d79392bc7542271 Alexandra <aeslinares@gmail.com> 1505705162 -0500	commit: change ruby version
+./.git/logs/refs/heads/master:a8a147fa5a08c6089f72b5f07d79392bc7542271 0bb2b0ae1b898183ee84c3c35824cf0b054380c2 Alexandra <aeslinares@gmail.com> 1505706274 -0500	commit: change puma
+./.git/logs/refs/heads/master:0bb2b0ae1b898183ee84c3c35824cf0b054380c2 205eb8d64f0f9ea11d4d48e93a39d26159b8f927 Alexandra <aeslinares@gmail.com> 1505778774 -0500	commit: change sendgrid
+./.git/logs/refs/heads/master:205eb8d64f0f9ea11d4d48e93a39d26159b8f927 c5f96f9763fafe52219f46d62359c156e73b7f2d Alexandra <aeslinares@gmail.com> 1505877477 -0500	commit: change credentials
+./.git/logs/refs/heads/master:c5f96f9763fafe52219f46d62359c156e73b7f2d cd7248cdec9e765a8689ce0c24fd7d56cff61b72 Alexandra <aeslinares@gmail.com> 1505888696 -0500	commit: desactivate email
+./.git/logs/refs/heads/master:cd7248cdec9e765a8689ce0c24fd7d56cff61b72 59e4624d8f6fab59865e974668aaec830053172c Alexandra <aeslinares@gmail.com> 1507717723 -0500	commit: change belmond image
+./.git/logs/refs/heads/master:59e4624d8f6fab59865e974668aaec830053172c 267eaa0e76740aaf9f0bd08128965561e646983a Alexandra <aeslinares@gmail.com> 1515182860 -0500	commit: logo
+./.git/logs/refs/heads/master:267eaa0e76740aaf9f0bd08128965561e646983a f5f884324d7e5f8e6a53708d30c97ce751dd2d46 Alexandra <aeslinares@gmail.com> 1515705543 -0500	commit: ädd images and redirect to pecave
+./.git/logs/refs/heads/master:f5f884324d7e5f8e6a53708d30c97ce751dd2d46 ae64800beb57979e591cd5870fda842c5d03b599 Alexandra <aeslinares@gmail.com> 1515705596 -0500	commit: ädd images and redirect to pecave
+./.git/logs/refs/heads/master:ae64800beb57979e591cd5870fda842c5d03b599 9ac5fb46399127cfcc31bb190cf3b334345ea436 Alexandra <aeslinares@gmail.com> 1515706196 -0500	commit: ädd images and redirect to pecave
+./.git/logs/refs/heads/master:9ac5fb46399127cfcc31bb190cf3b334345ea436 ca2a5377d321cb00408fbbe69a69c7a5b50746e8 Alexandra <aeslinares@gmail.com> 1515706722 -0500	commit: ädd images and redirect to pecave
+./.git/logs/refs/heads/master:ca2a5377d321cb00408fbbe69a69c7a5b50746e8 9e9531bb235fc8d48903221369900df8921193c1 Alexandra <aeslinares@gmail.com> 1515708518 -0500	commit: ädd images and redirect to pecave
+./.git/logs/refs/heads/master:9e9531bb235fc8d48903221369900df8921193c1 85ec8cb3cfc182348e03084ffaeca671c5eb362b Alexandra <aeslinares@gmail.com> 1515709060 -0500	commit: ädd images and redirect to pecave
+./.git/logs/refs/heads/master:85ec8cb3cfc182348e03084ffaeca671c5eb362b b0b08517daf2e3812965ebf3b135de9d8575990e Alexandra <aeslinares@gmail.com> 1520368465 -0500	commit: add lopezin
+./.git/logs/refs/heads/master:b0b08517daf2e3812965ebf3b135de9d8575990e ba6dc09597beba9f92db00a694affae2398b494c Alexandra <aeslinares@gmail.com> 1521070480 -0500	commit: add lopezin
+./.git/logs/refs/heads/master:ba6dc09597beba9f92db00a694affae2398b494c 72b3e61d64a9a9a2ad8df1b9fded334bb961f53a Alexandra <aeslinares@gmail.com> 1521071151 -0500	commit: add lavanderia
+./.git/logs/refs/heads/master:72b3e61d64a9a9a2ad8df1b9fded334bb961f53a 707bc04cc17fb76d2a825c88167a190b82ce2c51 Alexandra <aeslinares@gmail.com> 1525309815 -0500	commit: exterran
+./.git/logs/refs/heads/master:707bc04cc17fb76d2a825c88167a190b82ce2c51 0916154f1ee49eb8fd703ad44d325201b61c27d2 Alexandra <aeslinares@gmail.com> 1525310055 -0500	commit: exterran
+./.git/logs/refs/heads/master:0916154f1ee49eb8fd703ad44d325201b61c27d2 0f3bbe1b6dcc0cadd2fbcca5947f51a8734f5146 Alexandra <aeslinares@gmail.com> 1525391777 -0500	commit: exterran
+./.git/logs/HEAD:0000000000000000000000000000000000000000 48e4cea6ff1e937bcc2955870efb8391528eaa9c Alexandra <aeslinares@gmail.com> 1505691210 -0500	clone: from https://github.com/ggalvezmontero/angkorweb.git
+./.git/logs/HEAD:48e4cea6ff1e937bcc2955870efb8391528eaa9c 01c700f547d95bd077f5258b55c05746119973fb Alexandra <aeslinares@gmail.com> 1505704519 -0500	commit: change ruby version
+./.git/logs/HEAD:01c700f547d95bd077f5258b55c05746119973fb 9d394d5248ef6af9ef4ea2266266f5b2494a87a3 Alexandra <aeslinares@gmail.com> 1505704738 -0500	commit: change ruby version
+./.git/logs/HEAD:9d394d5248ef6af9ef4ea2266266f5b2494a87a3 a8a147fa5a08c6089f72b5f07d79392bc7542271 Alexandra <aeslinares@gmail.com> 1505705162 -0500	commit: change ruby version
+./.git/logs/HEAD:a8a147fa5a08c6089f72b5f07d79392bc7542271 0bb2b0ae1b898183ee84c3c35824cf0b054380c2 Alexandra <aeslinares@gmail.com> 1505706274 -0500	commit: change puma
+./.git/logs/HEAD:0bb2b0ae1b898183ee84c3c35824cf0b054380c2 205eb8d64f0f9ea11d4d48e93a39d26159b8f927 Alexandra <aeslinares@gmail.com> 1505778774 -0500	commit: change sendgrid
+./.git/logs/HEAD:205eb8d64f0f9ea11d4d48e93a39d26159b8f927 c5f96f9763fafe52219f46d62359c156e73b7f2d Alexandra <aeslinares@gmail.com> 1505877477 -0500	commit: change credentials
+./.git/logs/HEAD:c5f96f9763fafe52219f46d62359c156e73b7f2d cd7248cdec9e765a8689ce0c24fd7d56cff61b72 Alexandra <aeslinares@gmail.com> 1505888696 -0500	commit: desactivate email
+./.git/logs/HEAD:cd7248cdec9e765a8689ce0c24fd7d56cff61b72 59e4624d8f6fab59865e974668aaec830053172c Alexandra <aeslinares@gmail.com> 1507717723 -0500	commit: change belmond image
+./.git/logs/HEAD:59e4624d8f6fab59865e974668aaec830053172c 267eaa0e76740aaf9f0bd08128965561e646983a Alexandra <aeslinares@gmail.com> 1515182860 -0500	commit: logo
+./.git/logs/HEAD:267eaa0e76740aaf9f0bd08128965561e646983a f5f884324d7e5f8e6a53708d30c97ce751dd2d46 Alexandra <aeslinares@gmail.com> 1515705543 -0500	commit: ädd images and redirect to pecave
+./.git/logs/HEAD:f5f884324d7e5f8e6a53708d30c97ce751dd2d46 ae64800beb57979e591cd5870fda842c5d03b599 Alexandra <aeslinares@gmail.com> 1515705596 -0500	commit: ädd images and redirect to pecave
+./.git/logs/HEAD:ae64800beb57979e591cd5870fda842c5d03b599 9ac5fb46399127cfcc31bb190cf3b334345ea436 Alexandra <aeslinares@gmail.com> 1515706196 -0500	commit: ädd images and redirect to pecave
+./.git/logs/HEAD:9ac5fb46399127cfcc31bb190cf3b334345ea436 ca2a5377d321cb00408fbbe69a69c7a5b50746e8 Alexandra <aeslinares@gmail.com> 1515706722 -0500	commit: ädd images and redirect to pecave
+./.git/logs/HEAD:ca2a5377d321cb00408fbbe69a69c7a5b50746e8 9e9531bb235fc8d48903221369900df8921193c1 Alexandra <aeslinares@gmail.com> 1515708518 -0500	commit: ädd images and redirect to pecave
+./.git/logs/HEAD:9e9531bb235fc8d48903221369900df8921193c1 85ec8cb3cfc182348e03084ffaeca671c5eb362b Alexandra <aeslinares@gmail.com> 1515709060 -0500	commit: ädd images and redirect to pecave
+./.git/logs/HEAD:85ec8cb3cfc182348e03084ffaeca671c5eb362b b0b08517daf2e3812965ebf3b135de9d8575990e Alexandra <aeslinares@gmail.com> 1520368465 -0500	commit: add lopezin
+./.git/logs/HEAD:b0b08517daf2e3812965ebf3b135de9d8575990e ba6dc09597beba9f92db00a694affae2398b494c Alexandra <aeslinares@gmail.com> 1521070480 -0500	commit: add lopezin
+./.git/logs/HEAD:ba6dc09597beba9f92db00a694affae2398b494c 72b3e61d64a9a9a2ad8df1b9fded334bb961f53a Alexandra <aeslinares@gmail.com> 1521071151 -0500	commit: add lavanderia
+./.git/logs/HEAD:72b3e61d64a9a9a2ad8df1b9fded334bb961f53a 707bc04cc17fb76d2a825c88167a190b82ce2c51 Alexandra <aeslinares@gmail.com> 1525309815 -0500	commit: exterran
+./.git/logs/HEAD:707bc04cc17fb76d2a825c88167a190b82ce2c51 0916154f1ee49eb8fd703ad44d325201b61c27d2 Alexandra <aeslinares@gmail.com> 1525310055 -0500	commit: exterran
+./.git/logs/HEAD:0916154f1ee49eb8fd703ad44d325201b61c27d2 0f3bbe1b6dcc0cadd2fbcca5947f51a8734f5146 Alexandra <aeslinares@gmail.com> 1525391777 -0500	commit: exterran
+./config/deploy.rb:set :repo_url,        'git@github.com:aeslinares/angkorweb.git'
